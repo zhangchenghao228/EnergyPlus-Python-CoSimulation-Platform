@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<svg width="250mm" height="200mm" viewBox="0 0 3200 1500"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events">
+<g font-family="Verdana" font-size="8">
+  <line x1="800" y1="830" x2="2050" y2="350" style="stroke:silver;"/>
+  <line x1="2400" y1="510" x2="2400" y2="30" style="stroke:silver;"/>
+  <line x1="2400" y1="550" x2="2400" y2="70" style="stroke:silver;"/>
+  <line x1="2400" y1="590" x2="2400" y2="110" style="stroke:silver;"/>
+  <line x1="2400" y1="630" x2="2400" y2="150" style="stroke:silver;"/>
+  <line x1="2400" y1="670" x2="2400" y2="190" style="stroke:silver;"/>
+  <line x1="2400" y1="710" x2="1200" y2="30" style="stroke:silver;"/>
+  <line x1="2050" y1="870" x2="900" y2="30" style="stroke:silver;"/>
+  <rect x="2600" y="20" width="200" height="20" style="fill:chartreuse; stroke: black;"/>1
+  <text x="2602" y="33">SPACE1-1</text>
+  <rect x="200" y="940" width="200" height="20" style="fill:snow; stroke: black;"/>6
+  <text x="202" y="953">OutdoorAir:NodeList</text>
+  <rect x="800" y="460" width="200" height="20" style="fill:wheat; stroke: black;"/>17
+  <text  x="802" y="468">HOT WATER LOOP HW SUPPLY SIDE
+  <tspan x="802" y="476">BYPASS PIPE</tspan></text>
+  <rect x="1400" y="460" width="200" height="20" style="fill:wheat; stroke: black;"/>18
+  <text x="1402" y="473">HOT WATER LOOP HW SUPPLY OUTLET PIPE</text>
+  <rect x="1700" y="460" width="200" height="20" style="fill:wheat; stroke: black;"/>19
+  <text x="1702" y="473">HOT WATER LOOP HW DEMAND INLET PIPE</text>
+  <rect x="2300" y="460" width="200" height="20" style="fill:wheat; stroke: black;"/>20
+  <text  x="2302" y="468">HOT WATER LOOP HW DEMAND SIDE
+  <tspan x="2302" y="476">BYPASS PIPE</tspan></text>
+  <rect x="2900" y="700" width="200" height="20" style="fill:wheat; stroke: black;"/>21
+  <text x="2902" y="713">HOT WATER LOOP HW DEMAND OUTLET PIPE</text>
+  <rect x="700" y="780" width="200" height="20" style="fill:wheat; stroke: black;"/>22
+  <text  x="702" y="788">CHILLED WATER LOOP CHW SUPPLY SIDE
+  <tspan x="702" y="796">BYPASS PIPE</tspan></text>
+  <rect x="1200" y="820" width="200" height="20" style="fill:wheat; stroke: black;"/>23
+  <text  x="1202" y="828">CHILLED WATER LOOP CHW SUPPLY
+  <tspan x="1202" y="836">OUTLET PIPE</tspan></text>
+  <rect x="1450" y="820" width="200" height="20" style="fill:wheat; stroke: black;"/>24
+  <text  x="1452" y="828">CHILLED WATER LOOP CHW DEMAND INLET
+  <tspan x="1452" y="836">PIPE</tspan></text>
+  <rect x="1950" y="820" width="200" height="20" style="fill:wheat; stroke: black;"/>25
+  <text  x="1952" y="828">CHILLED WATER LOOP CHW DEMAND SIDE
+  <tspan x="1952" y="836">BYPASS PIPE</tspan></text>
+  <rect x="2450" y="860" width="200" height="20" style="fill:wheat; stroke: black;"/>26
+  <text  x="2452" y="868">CHILLED WATER LOOP CHW DEMAND
+  <tspan x="2452" y="876">OUTLET PIPE</tspan></text>
+  <rect x="1200" y="300" width="200" height="20" style="fill:wheat; stroke: black;"/>27
+  <text  x="1202" y="308">CHILLED WATER LOOP CNDW SUPPLY
+  <tspan x="1202" y="316">OUTLET PIPE</tspan></text>
+  <rect x="700" y="260" width="200" height="20" style="fill:wheat; stroke: black;"/>28
+  <text  x="702" y="268">CHILLED WATER LOOP CNDW SUPPLY SIDE
+  <tspan x="702" y="276">BYPASS PIPE</tspan></text>
+  <rect x="1450" y="300" width="200" height="20" style="fill:wheat; stroke: black;"/>29
+  <text  x="1452" y="308">CHILLED WATER LOOP CNDW DEMAND
+  <tspan x="1452" y="316">INLET PIPE</tspan></text>
+  <rect x="1950" y="300" width="200" height="20" style="fill:wheat; stroke: black;"/>30
+  <text  x="1952" y="308">CHILLED WATER LOOP CNDW DEMAND SIDE
+  <tspan x="1952" y="316">BYPASS PIPE</tspan></text>
+  <rect x="2450" y="340" width="200" height="20" style="fill:wheat; stroke: black;"/>31
+  <text  x="2452" y="348">CHILLED WATER LOOP CNDW DEMAND
+  <tspan x="2452" y="356">OUTLET PIPE</tspan></text>
+  <rect x="2000" y="460" width="200" height="20" style="fill:wheat; stroke: black;"/>32
+  <text x="2002" y="473">HOT WATER LOOP HW DEMAND SPLITTER</text>
+  <rect x="2600" y="700" width="200" height="20" style="fill:wheat; stroke: black;"/>33
+  <text x="2602" y="713">HOT WATER LOOP HW DEMAND MIXER</text>
+  <rect x="800" y="420" width="200" height="20" style="fill:indianred; stroke: black;"/>34
+  <text x="802" y="433">MAIN BOILER</text>
+  <rect x="500" y="420" width="200" height="20" style="fill:wheat; stroke: black;"/>35
+  <text x="502" y="433">HOT WATER LOOP HW SUPPLY SPLITTER</text>
+  <rect x="1100" y="460" width="200" height="20" style="fill:wheat; stroke: black;"/>36
+  <text x="1102" y="473">HOT WATER LOOP HW SUPPLY MIXER</text>
+  <rect x="1700" y="820" width="200" height="20" style="fill:wheat; stroke: black;"/>37
+  <text  x="1702" y="828">CHILLED WATER LOOP CHW DEMAND
+  <tspan x="1702" y="836">SPLITTER</tspan></text>
+  <rect x="2200" y="860" width="200" height="20" style="fill:wheat; stroke: black;"/>38
+  <text x="2202" y="873">CHILLED WATER LOOP CHW DEMAND MIXER</text>
+  <rect x="700" y="820" width="200" height="20" style="fill:powderblue; stroke: black;"/>39
+  <text x="702" y="833">MAIN CHILLER</text>
+  <rect x="1950" y="340" width="200" height="20" style="fill:powderblue; stroke: black;"/>40
+  <text x="1952" y="353">MAIN CHILLER</text>
+  <rect x="450" y="780" width="200" height="20" style="fill:wheat; stroke: black;"/>41
+  <text  x="452" y="788">CHILLED WATER LOOP CHW SUPPLY
+  <tspan x="452" y="796">SPLITTER</tspan></text>
+  <rect x="950" y="820" width="200" height="20" style="fill:wheat; stroke: black;"/>42
+  <text x="952" y="833">CHILLED WATER LOOP CHW SUPPLY MIXER</text>
+  <rect x="1700" y="300" width="200" height="20" style="fill:wheat; stroke: black;"/>43
+  <text  x="1702" y="308">CHILLED WATER LOOP CNDW DEMAND
+  <tspan x="1702" y="316">SPLITTER</tspan></text>
+  <rect x="2200" y="340" width="200" height="20" style="fill:wheat; stroke: black;"/>44
+  <text x="2202" y="353">CHILLED WATER LOOP CNDW DEMAND MIXER</text>
+  <rect x="700" y="300" width="200" height="20" style="fill:pink; stroke: black;"/>45
+  <text x="702" y="313">MAIN TOWER</text>
+  <rect x="450" y="260" width="200" height="20" style="fill:wheat; stroke: black;"/>46
+  <text  x="452" y="268">CHILLED WATER LOOP CNDW SUPPLY
+  <tspan x="452" y="276">SPLITTER</tspan></text>
+  <rect x="950" y="300" width="200" height="20" style="fill:wheat; stroke: black;"/>47
+  <text x="952" y="313">CHILLED WATER LOOP CNDW SUPPLY MIXER</text>
+  <rect x="1700" y="20" width="200" height="20" style="fill:wheat; stroke: black;"/>48
+  <text x="1702" y="33">VAV SYS 1 ZONE SPLITTER</text>
+  <rect x="2000" y="20" width="200" height="20" style="fill:wheat; stroke: black;"/>49
+  <text x="2002" y="33">SPACE1-1 VAV REHEAT</text>
+  <rect x="2300" y="500" width="200" height="20" style="fill:salmon; stroke: black;"/>50
+  <text x="2302" y="513">SPACE1-1 REHEAT COIL</text>
+  <rect x="2300" y="20" width="200" height="20" style="fill:salmon; stroke: black;"/>51
+  <text x="2302" y="33">SPACE1-1 REHEAT COIL</text>
+  <rect x="2300" y="540" width="200" height="20" style="fill:salmon; stroke: black;"/>52
+  <text x="2302" y="553">SPACE2-1 REHEAT COIL</text>
+  <rect x="2300" y="60" width="200" height="20" style="fill:salmon; stroke: black;"/>53
+  <text x="2302" y="73">SPACE2-1 REHEAT COIL</text>
+  <rect x="2300" y="580" width="200" height="20" style="fill:salmon; stroke: black;"/>54
+  <text x="2302" y="593">SPACE3-1 REHEAT COIL</text>
+  <rect x="2300" y="100" width="200" height="20" style="fill:salmon; stroke: black;"/>55
+  <text x="2302" y="113">SPACE3-1 REHEAT COIL</text>
+  <rect x="2300" y="620" width="200" height="20" style="fill:salmon; stroke: black;"/>56
+  <text x="2302" y="633">SPACE4-1 REHEAT COIL</text>
+  <rect x="2300" y="140" width="200" height="20" style="fill:salmon; stroke: black;"/>57
+  <text x="2302" y="153">SPACE4-1 REHEAT COIL</text>
+  <rect x="2300" y="660" width="200" height="20" style="fill:salmon; stroke: black;"/>58
+  <text x="2302" y="673">SPACE5-1 REHEAT COIL</text>
+  <rect x="2300" y="180" width="200" height="20" style="fill:salmon; stroke: black;"/>59
+  <text x="2302" y="193">SPACE5-1 REHEAT COIL</text>
+  <rect x="2300" y="700" width="200" height="20" style="fill:salmon; stroke: black;"/>60
+  <text x="2302" y="713">VAV SYS 1 HEATING COIL</text>
+  <rect x="1100" y="20" width="200" height="20" style="fill:salmon; stroke: black;"/>61
+  <text x="1102" y="33">VAV SYS 1 HEATING COIL</text>
+  <rect x="1950" y="860" width="200" height="20" style="fill:skyblue; stroke: black;"/>62
+  <text x="1952" y="873">VAV SYS 1 COOLING COIL</text>
+  <rect x="800" y="20" width="200" height="20" style="fill:skyblue; stroke: black;"/>63
+  <text x="802" y="33">VAV SYS 1 COOLING COIL</text>
+  <rect x="2000" y="60" width="200" height="20" style="fill:wheat; stroke: black;"/>64
+  <text x="2002" y="73">SPACE2-1 VAV REHEAT</text>
+  <rect x="2000" y="100" width="200" height="20" style="fill:wheat; stroke: black;"/>65
+  <text x="2002" y="113">SPACE3-1 VAV REHEAT</text>
+  <rect x="2000" y="140" width="200" height="20" style="fill:wheat; stroke: black;"/>66
+  <text x="2002" y="153">SPACE4-1 VAV REHEAT</text>
+  <rect x="2000" y="180" width="200" height="20" style="fill:wheat; stroke: black;"/>67
+  <text x="2002" y="193">SPACE5-1 VAV REHEAT</text>
+  <rect x="2900" y="180" width="200" height="20" style="fill:lightgreen; stroke: black;"/>70
+  <text x="2902" y="193">VAV SYS 1 RETURN PLENUM</text>
+  <rect x="500" y="20" width="200" height="20" style="fill:lawngreen; stroke: black;"/>71
+  <text x="502" y="33">VAV SYS 1 OA MIXING BOX</text>
+  <rect x="200" y="20" width="200" height="20" style="fill:silver; stroke: black;"/>72
+  <text x="202" y="33">VAV SYS 1 RETURN FAN</text>
+  <rect x="1400" y="20" width="200" height="20" style="fill:silver; stroke: black;"/>73
+  <text x="1402" y="33">VAV SYS 1 SUPPLY FAN</text>
+  <rect x="200" y="260" width="200" height="20" style="fill:springgreen; stroke: black;"/>75
+  <text x="202" y="273">CHILLED WATER LOOP CNDW SUPPLY PUMP</text>
+  <rect x="200" y="420" width="200" height="20" style="fill:springgreen; stroke: black;"/>76
+  <text x="202" y="433">HOT WATER LOOP HW SUPPLY PUMP</text>
+  <rect x="200" y="780" width="200" height="20" style="fill:springgreen; stroke: black;"/>77
+  <text x="202" y="793">CHILLED WATER LOOP CHW SUPPLY PUMP</text>
+  <rect x="2600" y="60" width="200" height="20" style="fill:chartreuse; stroke: black;"/>78
+  <text x="2602" y="73">SPACE2-1</text>
+  <rect x="2600" y="100" width="200" height="20" style="fill:chartreuse; stroke: black;"/>79
+  <text x="2602" y="113">SPACE3-1</text>
+  <rect x="2600" y="140" width="200" height="20" style="fill:chartreuse; stroke: black;"/>80
+  <text x="2602" y="153">SPACE4-1</text>
+  <rect x="2600" y="180" width="200" height="20" style="fill:chartreuse; stroke: black;"/>81
+  <text x="2602" y="193">SPACE5-1</text>
+  <line x1="400" y1="950" x2="500" y2="30" style="stroke:black;"/>
+  <line x1="1000" y1="470" x2="1100" y2="470" style="stroke:black;"/>
+  <line x1="1600" y1="470" x2="1700" y2="470" style="stroke:black;"/>
+  <line x1="1900" y1="470" x2="2000" y2="470" style="stroke:black;"/>
+  <line x1="2500" y1="470" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="900" y1="790" x2="950" y2="830" style="stroke:black;"/>
+  <line x1="1400" y1="830" x2="1450" y2="830" style="stroke:black;"/>
+  <line x1="1650" y1="830" x2="1700" y2="830" style="stroke:black;"/>
+  <line x1="2150" y1="830" x2="2200" y2="870" style="stroke:black;"/>
+  <line x1="1400" y1="310" x2="1450" y2="310" style="stroke:black;"/>
+  <line x1="900" y1="270" x2="950" y2="310" style="stroke:black;"/>
+  <line x1="1650" y1="310" x2="1700" y2="310" style="stroke:black;"/>
+  <line x1="2150" y1="310" x2="2200" y2="350" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="470" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="510" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="550" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="590" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="630" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="670" style="stroke:black;"/>
+  <line x1="2200" y1="470" x2="2300" y2="710" style="stroke:black;"/>
+  <line x1="2800" y1="710" x2="2900" y2="710" style="stroke:black;"/>
+  <line x1="1000" y1="430" x2="1100" y2="470" style="stroke:black;"/>
+  <line x1="700" y1="430" x2="800" y2="430" style="stroke:black;"/>
+  <line x1="700" y1="430" x2="800" y2="470" style="stroke:black;"/>
+  <line x1="1300" y1="470" x2="1400" y2="470" style="stroke:black;"/>
+  <line x1="1900" y1="830" x2="1950" y2="830" style="stroke:black;"/>
+  <line x1="1900" y1="830" x2="1950" y2="870" style="stroke:black;"/>
+  <line x1="2400" y1="870" x2="2450" y2="870" style="stroke:black;"/>
+  <line x1="900" y1="830" x2="950" y2="830" style="stroke:black;"/>
+  <line x1="2150" y1="350" x2="2200" y2="350" style="stroke:black;"/>
+  <line x1="650" y1="790" x2="700" y2="790" style="stroke:black;"/>
+  <line x1="650" y1="790" x2="700" y2="830" style="stroke:black;"/>
+  <line x1="1150" y1="830" x2="1200" y2="830" style="stroke:black;"/>
+  <line x1="1900" y1="310" x2="1950" y2="310" style="stroke:black;"/>
+  <line x1="1900" y1="310" x2="1950" y2="350" style="stroke:black;"/>
+  <line x1="2400" y1="350" x2="2450" y2="350" style="stroke:black;"/>
+  <line x1="900" y1="310" x2="950" y2="310" style="stroke:black;"/>
+  <line x1="650" y1="270" x2="700" y2="270" style="stroke:black;"/>
+  <line x1="650" y1="270" x2="700" y2="310" style="stroke:black;"/>
+  <line x1="1150" y1="310" x2="1200" y2="310" style="stroke:black;"/>
+  <line x1="1900" y1="30" x2="2000" y2="30" style="stroke:black;"/>
+  <line x1="1900" y1="30" x2="2000" y2="70" style="stroke:black;"/>
+  <line x1="1900" y1="30" x2="2000" y2="110" style="stroke:black;"/>
+  <line x1="1900" y1="30" x2="2000" y2="150" style="stroke:black;"/>
+  <line x1="1900" y1="30" x2="2000" y2="190" style="stroke:black;"/>
+  <line x1="2200" y1="30" x2="2300" y2="30" style="stroke:black;"/>
+  <line x1="2500" y1="510" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="2500" y1="30" x2="2600" y2="30" style="stroke:black;"/>
+  <line x1="2500" y1="550" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="2500" y1="70" x2="2600" y2="70" style="stroke:black;"/>
+  <line x1="2500" y1="590" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="2500" y1="110" x2="2600" y2="110" style="stroke:black;"/>
+  <line x1="2500" y1="630" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="2500" y1="150" x2="2600" y2="150" style="stroke:black;"/>
+  <line x1="2500" y1="670" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="2500" y1="190" x2="2600" y2="190" style="stroke:black;"/>
+  <line x1="2500" y1="710" x2="2600" y2="710" style="stroke:black;"/>
+  <line x1="1300" y1="30" x2="1400" y2="30" style="stroke:black;"/>
+  <line x1="2150" y1="870" x2="2200" y2="870" style="stroke:black;"/>
+  <line x1="1000" y1="30" x2="1100" y2="30" style="stroke:black;"/>
+  <line x1="2200" y1="70" x2="2300" y2="70" style="stroke:black;"/>
+  <line x1="2200" y1="110" x2="2300" y2="110" style="stroke:black;"/>
+  <line x1="2200" y1="150" x2="2300" y2="150" style="stroke:black;"/>
+  <line x1="2200" y1="190" x2="2300" y2="190" style="stroke:black;"/>
+  <line x1="700" y1="30" x2="800" y2="30" style="stroke:black;"/>
+  <line x1="400" y1="30" x2="500" y2="30" style="stroke:black;"/>
+  <line x1="1600" y1="30" x2="1700" y2="30" style="stroke:black;"/>
+  <line x1="400" y1="270" x2="450" y2="270" style="stroke:black;"/>
+  <line x1="400" y1="430" x2="500" y2="430" style="stroke:black;"/>
+  <line x1="400" y1="790" x2="450" y2="790" style="stroke:black;"/>
+  <line x1="2800" y1="30" x2="2900" y2="190" style="stroke:black;"/>
+  <line x1="2800" y1="70" x2="2900" y2="190" style="stroke:black;"/>
+  <line x1="2800" y1="110" x2="2900" y2="190" style="stroke:black;"/>
+  <line x1="2800" y1="150" x2="2900" y2="190" style="stroke:black;"/>
+  <line x1="2800" y1="190" x2="2900" y2="190" style="stroke:black;"/>
+  <line x1="200" y1="30" x2="175" y2="30" style="stroke:black;"/>
+  <line x1="175" y1="30" x2="175" y2="0" style="stroke:black;"/>
+  <line x1="175" y1="0" x2="3125" y2="0" style="stroke:black;"/>
+  <line x1="3125" y1="0" x2="3125" y2="190" style="stroke:black;"/>
+  <line x1="3125" y1="190" x2="3100" y2="190" style="stroke:black;"/>
+  <line x1="200" y1="270" x2="175" y2="270" style="stroke:black;"/>
+  <line x1="175" y1="270" x2="175" y2="240" style="stroke:black;"/>
+  <line x1="175" y1="240" x2="2675" y2="240" style="stroke:black;"/>
+  <line x1="2675" y1="240" x2="2675" y2="350" style="stroke:black;"/>
+  <line x1="2675" y1="350" x2="2650" y2="350" style="stroke:black;"/>
+  <line x1="200" y1="430" x2="175" y2="430" style="stroke:black;"/>
+  <line x1="175" y1="430" x2="175" y2="400" style="stroke:black;"/>
+  <line x1="175" y1="400" x2="3125" y2="400" style="stroke:black;"/>
+  <line x1="3125" y1="400" x2="3125" y2="710" style="stroke:black;"/>
+  <line x1="3125" y1="710" x2="3100" y2="710" style="stroke:black;"/>
+  <line x1="200" y1="790" x2="175" y2="790" style="stroke:black;"/>
+  <line x1="175" y1="790" x2="175" y2="760" style="stroke:black;"/>
+  <line x1="175" y1="760" x2="2675" y2="760" style="stroke:black;"/>
+  <line x1="2675" y1="760" x2="2675" y2="870" style="stroke:black;"/>
+  <line x1="2675" y1="870" x2="2650" y2="870" style="stroke:black;"/>
+  <text x="200" y="1000">Unused Non-Parent Objects:</text>
+  <text x="220" y="1020">OutdoorAir:Node</text>
+  <text x="220" y="1040">OutdoorAir:Node</text>
+  <text x="220" y="1060">VAV SYS 1 COOLING SUPPLY AIR TEMP MANAGER</text>
+  <text x="220" y="1080">VAV SYS 1 HEATING SUPPLY AIR TEMP MANAGER</text>
+  <text x="220" y="1100">CHILLED WATER LOOP CHW TEMP MANAGER</text>
+  <text x="220" y="1120">CHILLED WATER LOOP CNDW TEMP MANAGER</text>
+  <text x="220" y="1140">HOT WATER LOOP HW TEMP MANAGER</text>
+  <text x="220" y="1160">VAV SYS 1 COOLING COIL AIR TEMP MANAGER</text>
+  <text x="220" y="1180">VAV SYS 1 HEATING COIL AIR TEMP MANAGER</text>
+  <text x="220" y="1200">CHILLED WATER LOOP AVAILABILITY LOW TEMP OFF</text>
+  <text x="220" y="1220">VAV SYS 1 COOLING COIL CONTROLLER</text>
+  <text x="220" y="1240">VAV SYS 1 HEATING COIL CONTROLLER</text>
+  <text x="220" y="1260">VAV SYS 1 OA CONTROLLER</text>
+  <text x="200" y="1300">
+The following are not supported: objects related to controls or ZoneHVAC:IdealLoadsAirSystem</text>
+</g>
+</svg>

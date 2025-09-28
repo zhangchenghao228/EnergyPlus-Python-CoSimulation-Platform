@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.9",
+    "heartbeatAt": "2025-03-29T02:19:28.888231",
+    "startedAt": "2025-03-29T02:19:27.726370",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "e:\\\u5b9e\u9a8c\u6570\u636e\\Rule_test\\Energyplus_python\\main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "zch",
+    "username": "A1736",
+    "executable": "D:\\env\\anaconda\\envs\\Energyplus\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2600.0,
+        "min": 0.0,
+        "max": 2600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 2600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 531.4960899353027,
+            "used": 172.52110290527344
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 23.73033905029297
+    }
+}

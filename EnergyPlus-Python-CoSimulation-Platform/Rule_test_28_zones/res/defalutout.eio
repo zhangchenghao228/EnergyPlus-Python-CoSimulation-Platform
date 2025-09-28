@@ -1,0 +1,872 @@
+Program Version,EnergyPlus, Version 23.2.0-7636e6b3e9, YMD=2025.09.23 10:49
+! <Version>, Version ID
+ Version, 23.2
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  4, 15
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 4, 10
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, Yes, No, Yes, No
+! <Performance Precision Tradeoffs>, Use Coil Direct Simulation, Zone Radiant Exchange Algorithm, Override Mode, Number of Timestep In Hour, Force Euler Method, Minimum Number of Warmup Days, Force Suppress All Begin Environment Resets, Minimum System Timestep, MaxZoneTempDiff, MaxAllowedDelTemp
+ Performance Precision Tradeoffs, No, ScriptF, Normal, 4, No, 1, No, 1.0, 0.300, 2.0000E-003
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.200, 0.200, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  21.50,  21.40,  21.50,  21.50,  22.00,  22.90,  23.00,  23.10,  23.10,  22.20,  21.70,  21.60
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod,   8.15,   3.91,   2.76,   3.76,   9.48,  15.88,  21.91,  26.27,  27.55,  25.50,  20.56,  14.34
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Jinan.Tsinan SD CHN Custom-548230 WMO#=548230,36.60,117.05,8.00,215.00,98769,1.1739
+! <Site Water Mains Temperature Information>,Calculation Method{},Water Mains Temperature Schedule Name{},Annual Average Outdoor Air Temperature{C},Maximum Difference In Monthly Average Outdoor Air Temperatures{deltaC},Fixed Default Water Mains Temperature{C}
+Site Water Mains Temperature Information,FixedDefault,NA,NA,NA,10.0
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Building,30.000,City,4.00000E-002,0.40000,FullExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,DOE-2
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Algorithm {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}, Space Heat Balance Sizing, Space Heat Balance Simulation
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference, No, No
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing and Return {AdjustMixingOnly | AdjustReturnOnly | AdjustMixingThenReturn | AdjustReturnThenMixing | None}, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.330,460.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,28,204,36
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, THERMAL ZONE: ZONE1,0.0,42.00,8.04,3.00,39.78,-9.09,4.50,1,1,1,35.20,44.37,-14.04,-4.14,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,41.88,30.89,10.99,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE10,0.0,18.00,8.04,3.00,19.00,2.91,4.50,1,1,1,14.41,23.59,-2.04,7.86,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.70,3.30,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE11,0.0,12.00,2.23E-002,3.00,9.81,-1.01,4.50,1,1,1,5.20,14.41,-5.98,3.96,3.00,6.00,3.00,144.40,TARP,DOE-2,48.13,18.00,14.24,3.76,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE12,0.0,12.00,8.04,3.00,13.80,5.91,4.50,1,1,1,9.22,18.39,0.96,10.86,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.70,3.30,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE13,0.0,0.00,8.04,3.00,4.61,1.98,4.50,1,1,1,0.00,9.22,-2.99,6.96,3.00,6.00,3.00,144.60,TARP,DOE-2,48.20,42.12,33.52,8.59,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE14,0.0,0.00,16.00,3.00,8.61,8.91,4.50,1,1,1,4.02,13.20,3.96,13.86,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,41.88,33.63,8.26,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE15,0.0,0.00,8.04,0.00,4.61,1.98,1.50,1,1,1,0.00,9.22,-2.99,6.96,0.00,3.00,3.00,144.60,TARP,DOE-2,48.20,42.12,32.82,9.30,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE16,0.0,0.00,16.00,0.00,8.61,8.91,1.50,1,1,1,4.02,13.20,3.96,13.86,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,41.88,33.63,8.26,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE17,0.0,12.00,2.23E-002,0.00,9.81,-1.01,1.50,1,1,1,5.20,14.41,-5.98,3.96,0.00,3.00,3.00,144.40,TARP,DOE-2,48.13,18.00,13.42,4.58,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE18,0.0,12.00,8.04,0.00,13.80,5.91,1.50,1,1,1,9.22,18.39,0.96,10.86,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.70,3.30,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE19,0.0,18.00,3.34E-002,0.00,15.01,-4.01,1.50,1,1,1,10.40,19.61,-8.97,0.96,0.00,3.00,3.00,144.20,TARP,DOE-2,48.07,18.00,12.97,5.03,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE2,0.0,42.00,7.80E-002,3.00,35.80,-15.99,4.50,1,1,1,31.21,40.39,-20.93,-11.04,3.00,6.00,3.00,143.40,TARP,DOE-2,47.80,41.88,30.57,11.31,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE20,0.0,18.00,8.04,0.00,19.00,2.91,1.50,1,1,1,14.41,23.59,-2.04,7.86,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.70,3.30,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE21,0.0,24.00,4.46E-002,0.00,20.21,-7.00,1.50,1,1,1,15.61,24.80,-11.96,-2.04,0.00,3.00,3.00,144.00,TARP,DOE-2,48.00,18.00,14.65,3.35,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE22,0.0,24.00,8.04,0.00,24.20,-9.08E-002,1.50,1,1,1,19.61,28.78,-5.04,4.86,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.00,4.00,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE23,0.0,30.00,5.57E-002,0.00,25.40,-10.00,1.50,1,1,1,20.81,30.00,-14.95,-5.04,-1.33E-037,3.00,3.00,143.80,TARP,DOE-2,47.93,18.00,13.68,4.32,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE24,0.0,30.00,8.04,0.00,29.39,-3.09,1.50,1,1,1,24.80,33.98,-8.04,1.86,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.00,4.00,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE25,0.0,36.00,6.69E-002,0.00,30.60,-12.99,1.50,1,1,1,26.01,35.20,-17.94,-8.04,-8.79E-038,3.00,3.00,143.60,TARP,DOE-2,47.87,18.00,13.68,4.32,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE26,0.0,36.00,8.04,0.00,34.59,-6.09,1.50,1,1,1,30.00,39.18,-11.04,-1.14,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.00,4.00,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE27,0.0,42.00,7.80E-002,0.00,35.80,-15.99,1.50,1,1,1,31.21,40.39,-20.93,-11.04,0.00,3.00,3.00,143.40,TARP,DOE-2,47.80,41.88,30.57,11.31,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE28,0.0,42.00,8.04,0.00,39.78,-9.09,1.50,1,1,1,35.20,44.37,-14.04,-4.14,0.00,3.00,3.00,143.30,TARP,DOE-2,47.77,41.88,30.89,10.99,6,2,0,Yes
+ Zone Information, THERMAL ZONE: ZONE3,0.0,36.00,6.69E-002,3.00,30.60,-12.99,4.50,1,1,1,26.01,35.20,-17.94,-8.04,3.00,6.00,3.00,143.60,TARP,DOE-2,47.87,18.00,13.68,4.32,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE4,0.0,36.00,8.04,3.00,34.59,-6.09,4.50,1,1,1,30.00,39.18,-11.04,-1.14,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.00,4.00,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE5,0.0,30.00,5.57E-002,3.00,25.40,-10.00,4.50,1,1,1,20.81,30.00,-14.95,-5.04,3.00,6.00,3.00,143.80,TARP,DOE-2,47.93,18.00,13.68,4.32,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE6,0.0,30.00,8.04,3.00,29.39,-3.09,4.50,1,1,1,24.80,33.98,-8.04,1.86,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.00,4.00,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE7,0.0,24.00,4.46E-002,3.00,20.21,-7.00,4.50,1,1,1,15.61,24.80,-11.96,-2.04,3.00,6.00,3.00,144.00,TARP,DOE-2,48.00,18.00,13.68,4.32,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE8,0.0,24.00,8.04,3.00,24.20,-9.08E-002,4.50,1,1,1,19.61,28.78,-5.04,4.86,3.00,6.00,3.00,143.30,TARP,DOE-2,47.77,18.00,14.00,4.00,6,1,0,Yes
+ Zone Information, THERMAL ZONE: ZONE9,0.0,18.00,3.34E-002,3.00,15.01,-4.01,4.50,1,1,1,10.40,19.61,-8.97,0.96,3.00,6.00,3.00,144.20,TARP,DOE-2,48.07,18.00,13.84,4.16,6,1,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE1,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE10,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE11,48.13,7.0,6.876,0.145,16.620,16.620,0.000,0.000,0.000,0.000,33.241,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE12,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE13,48.20,7.0,6.886,0.145,16.597,16.597,0.000,0.000,0.000,0.000,33.195,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE14,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE15,48.20,7.0,6.886,0.145,16.597,16.597,0.000,0.000,0.000,0.000,33.195,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE16,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE17,48.13,7.0,6.876,0.145,16.620,16.620,0.000,0.000,0.000,0.000,33.241,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE18,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE19,48.07,7.0,6.867,0.146,16.643,16.643,0.000,0.000,0.000,0.000,33.287,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE2,47.80,7.0,6.828,0.146,16.737,16.737,0.000,0.000,0.000,0.000,33.473,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE20,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE21,48.00,7.0,6.857,0.146,16.667,16.667,0.000,0.000,0.000,0.000,33.333,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE22,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE23,47.93,7.0,6.848,0.146,16.690,16.690,0.000,0.000,0.000,0.000,33.380,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE24,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE25,47.87,7.0,6.838,0.146,16.713,16.713,0.000,0.000,0.000,0.000,33.426,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE26,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE27,47.80,7.0,6.828,0.146,16.737,16.737,0.000,0.000,0.000,0.000,33.473,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE28,47.77,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE3,47.87,7.0,6.838,0.146,16.713,16.713,0.000,0.000,0.000,0.000,33.426,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE4,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE5,47.93,7.0,6.848,0.146,16.690,16.690,0.000,0.000,0.000,0.000,33.380,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE6,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE7,48.00,7.0,6.857,0.146,16.667,16.667,0.000,0.000,0.000,0.000,33.333,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE8,47.77,7.0,6.824,0.147,16.748,16.748,0.000,0.000,0.000,0.000,33.497,No
+ Zone Internal Gains Nominal, THERMAL ZONE: ZONE9,48.07,7.0,6.867,0.146,16.643,16.643,0.000,0.000,0.000,0.000,33.287,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People,MRT Calculation Type,Work Efficiency, Clothing Insulation Calculation Method,Clothing Insulation Calculation Method Schedule,Clothing,Air Velocity,Fanger Calculation,Pierce Calculation,KSU Calculation,Cooling Effect Calculation,Ankle Draft Calculation
+ People Internal Gains Nominal, ZONE1 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE1,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE2 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE2,47.80,7.0,7.0,0.146,6.828,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE3 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE3,47.87,7.0,7.0,0.146,6.838,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE4 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE4,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE5 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE5,47.93,7.0,7.0,0.146,6.848,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE6 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE6,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE7 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE7,48.00,7.0,7.0,0.146,6.857,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE8 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE8,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE9 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE9,48.07,7.0,7.0,0.146,6.867,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE10 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE10,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE11 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE11,48.13,7.0,7.0,0.145,6.876,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE12 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE12,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE13 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE13,48.20,7.0,7.0,0.145,6.886,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE14 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE14,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE15 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE15,48.20,7.0,7.0,0.145,6.886,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE16 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE16,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE17 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE17,48.13,7.0,7.0,0.145,6.876,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE18 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE18,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE19 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE19,48.07,7.0,7.0,0.146,6.867,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE20 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE20,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE21 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE21,48.00,7.0,7.0,0.146,6.857,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE22 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE22,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE23 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE23,47.93,7.0,7.0,0.146,6.848,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE24 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE24,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE25 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE25,47.87,7.0,7.0,0.146,6.838,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE26 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE26,47.77,7.0,7.0,0.147,6.824,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, ZONE27 SPACE HALL PEOPLE,OCCUPY-1,THERMAL ZONE: ZONE27,47.80,7.0,7.0,0.146,6.828,0.300,0.700,AutoCalculate,ACTSCHD,No,3.8200E-008,0,7,Zone Averaged,WORK EFFICIENCY,Clothing Insulation Schedule,N/A,CLOTHING INSULATION SCHEDULE2,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, ZONE1 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE1,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE2 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE2,47.80,7.0,800.000,16.737,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE3 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE3,47.87,7.0,800.000,16.713,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE4 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE4,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE5 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE5,47.93,7.0,800.000,16.690,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE6 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE6,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE7 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE7,48.00,7.0,800.000,16.667,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE8 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE8,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE9 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE9,48.07,7.0,800.000,16.643,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE10 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE10,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE11 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE11,48.13,7.0,800.000,16.620,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE12 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE12,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE13 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE13,48.20,7.0,800.000,16.597,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE14 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE14,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE15 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE15,48.20,7.0,800.000,16.597,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE16 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE16,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE17 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE17,48.13,7.0,800.000,16.620,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE18 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE18,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE19 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE19,48.07,7.0,800.000,16.643,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE20 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE20,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE21 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE21,48.00,7.0,800.000,16.667,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE22 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE22,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE23 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE23,47.93,7.0,800.000,16.690,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE24 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE24,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE25 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE25,47.87,7.0,800.000,16.713,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE26 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE26,47.77,7.0,800.000,16.748,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+ Lights Internal Gains Nominal, ZONE27 SPACE LIGHTS,LIGHTS-1,THERMAL ZONE: ZONE27,47.80,7.0,800.000,16.737,114.286,0.200,0.590,0.200,1.000E-002,0.000,GeneralLights,40.000,800.000
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, ZONE1 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE1,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE2 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE2,47.80,7.0,800.000,16.737,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE3 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE3,47.87,7.0,800.000,16.713,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE4 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE4,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE5 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE5,47.93,7.0,800.000,16.690,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE6 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE6,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE7 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE7,48.00,7.0,800.000,16.667,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE8 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE8,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE9 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE9,48.07,7.0,800.000,16.643,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE10 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE10,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE11 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE11,48.13,7.0,800.000,16.620,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE12 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE12,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE13 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE13,48.20,7.0,800.000,16.597,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE14 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE14,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE15 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE15,48.20,7.0,800.000,16.597,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE16 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE16,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE17 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE17,48.13,7.0,800.000,16.620,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE18 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE18,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE19 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE19,48.07,7.0,800.000,16.643,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE20 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE20,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE21 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE21,48.00,7.0,800.000,16.667,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE22 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE22,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE23 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE23,47.93,7.0,800.000,16.690,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE24 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE24,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE25 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE25,47.87,7.0,800.000,16.713,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE26 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE26,47.77,7.0,800.000,16.748,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+ ElectricEquipment Internal Gains Nominal, ZONE27 SPACE ELECEQ,EQUIP-1,THERMAL ZONE: ZONE27,47.80,7.0,800.000,16.737,114.286,0.000,0.300,0.000,0.700,General,16.000,720.000
+! <Shadowing/Sun Position Calculations Annual Simulations>, Shading Calculation Method, Shading Calculation Update Frequency Method, Shading Calculation Update Frequency {days}, Maximum Figures in Shadow Overlap Calculations {}, Polygon Clipping Algorithm, Pixel Counting Resolution, Sky Diffuse Modeling Algorithm, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,PolygonClipping,Periodic,20,15000,SutherlandHodgman,512,SimpleSkyDiffuseModeling,No,No,No
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s-m2},Volume Flow Rate/Exterior Surface Area {m3/s-m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, ZONE1 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE1,47.77,7.0,1.670E-002,3.496E-004,1.863E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE2 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE2,47.80,7.0,1.670E-002,3.494E-004,1.862E-004,0.419,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE3 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE3,47.87,7.0,1.670E-002,3.489E-004,2.535E-004,0.419,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE4 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE4,47.77,7.0,1.670E-002,3.496E-004,2.539E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE5 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE5,47.93,7.0,1.670E-002,3.484E-004,2.533E-004,0.418,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE6 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE6,47.77,7.0,1.670E-002,3.496E-004,2.539E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE7 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE7,48.00,7.0,1.670E-002,3.479E-004,2.530E-004,0.418,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE8 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE8,47.77,7.0,1.670E-002,3.496E-004,2.539E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE9 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE9,48.07,7.0,1.670E-002,3.474E-004,2.528E-004,0.417,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE10 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE10,47.77,7.0,1.670E-002,3.496E-004,2.539E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE11 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE11,48.13,7.0,1.670E-002,3.470E-004,2.525E-004,0.416,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE12 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE12,47.77,7.0,1.670E-002,3.496E-004,2.539E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE13 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE13,48.20,7.0,1.670E-002,3.465E-004,1.849E-004,0.416,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE14 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE14,47.77,7.0,1.670E-002,3.496E-004,1.863E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE15 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE15,48.20,7.0,1.670E-002,3.465E-004,3.965E-004,0.416,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE16 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE16,47.77,7.0,1.670E-002,3.496E-004,3.987E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE17 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE17,48.13,7.0,1.670E-002,3.470E-004,9.278E-004,0.416,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE18 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE18,47.77,7.0,1.670E-002,3.496E-004,9.278E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE19 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE19,48.07,7.0,1.670E-002,3.474E-004,9.278E-004,0.417,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE20 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE20,47.77,7.0,1.670E-002,3.496E-004,9.278E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE21 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE21,48.00,7.0,1.670E-002,3.479E-004,9.278E-004,0.418,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE22 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE22,47.77,7.0,1.670E-002,3.496E-004,9.278E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE23 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE23,47.93,7.0,1.670E-002,3.484E-004,9.278E-004,0.418,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE24 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE24,47.77,7.0,1.670E-002,3.496E-004,9.278E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE25 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE25,47.87,7.0,1.670E-002,3.489E-004,9.278E-004,0.419,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE26 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE26,47.77,7.0,1.670E-002,3.496E-004,9.278E-004,0.420,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, ZONE27 SPACE INFIL,INFIL-SCH,THERMAL ZONE: ZONE27,47.80,7.0,1.670E-002,3.494E-004,3.987E-004,0.419,0.000,0.000,0.224,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,THERMAL ZONE: ZONE1,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE10,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE11,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE12,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE13,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE14,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE15,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE16,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE17,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE18,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE19,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE2,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE20,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE21,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE22,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE23,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE24,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE25,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE26,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE27,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE28,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE3,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE4,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE5,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE6,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE7,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE8,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE: ZONE9,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    4
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE1,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE10,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE11,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE12,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE13,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE14,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE15,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE16,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE17,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE18,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE19,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE2,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE20,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE21,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE22,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE23,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE24,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE25,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE26,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE27,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE3,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE4,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE5,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE6,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE7,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE8,   1.2000    
+ Heating Sizing Factor Information, Zone THERMAL ZONE: ZONE9,   1.2000    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE1,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE10,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE11,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE12,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE13,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE14,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE15,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE16,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE17,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE18,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE19,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE2,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE20,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE21,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE22,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE23,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE24,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE25,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE26,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE27,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE3,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE4,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE5,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE6,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE7,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE8,   1.2000    
+ Cooling Sizing Factor Information, Zone THERMAL ZONE: ZONE9,   1.2000    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, THERMAL ZONE: ZONE1, Cooling, 2598.92052, 3118.70462, 0.19392, 0.23271, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 11:00:00, 32.85300, 1.16755E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE1, Heating, 1651.95351, 1982.34421, 4.92828E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE10, Cooling, 1900.09640, 2280.11568, 0.14178, 0.17013, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:30:00, 34.63300, 1.16786E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE10, Heating, 866.44096, 1039.72915, 2.58485E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE11, Cooling, 2112.83114, 2535.39737, 0.15765, 0.18918, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 34.36600, 1.16781E-002, 48.13371, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE11, Heating, 919.37823, 1103.25387, 2.74278E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.13371, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE12, Cooling, 1918.90391, 2302.68469, 0.14318, 0.17182, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:45:00, 34.49950, 1.16783E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE12, Heating, 889.75243, 1067.70292, 2.65440E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE13, Cooling, 2623.68780, 3148.42536, 0.19577, 0.23492, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:15:00, 34.18800, 1.16778E-002, 48.20057, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE13, Heating, 1426.12565, 1711.35078, 4.25457E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.20057, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE14, Cooling, 2436.33462, 2923.60154, 0.18179, 0.21815, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:15:00, 34.18800, 1.16778E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE14, Heating, 1401.46432, 1681.75719, 4.18099E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE15, Cooling, 2057.08350, 2468.50019, 0.15349, 0.18419, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 34.36600, 1.16781E-002, 48.20057, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE15, Heating, 923.91171, 1108.69406, 2.75635E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.20057, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE16, Cooling, 1851.00239, 2221.20286, 0.13812, 0.16574, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 34.36600, 1.16781E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE16, Heating, 883.29458, 1059.95350, 2.63518E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE17, Cooling, 1660.93007, 1993.11608, 0.12393, 0.14871, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 48.13371, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE17, Heating, 509.41660, 611.29992, 1.51977E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.13371, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE18, Cooling, 1450.43494, 1740.52193, 0.10822, 0.12987, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE18, Heating, 463.70158, 556.44190, 1.38338E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE19, Cooling, 1672.00356, 2006.40427, 0.12475, 0.14970, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 48.06686, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE19, Heating, 505.94493, 607.13392, 1.50941E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.06686, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE2, Cooling, 2689.64349, 3227.57219, 0.20068, 0.24082, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:15:00, 34.76650, 1.16788E-002, 47.79943, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE2, Heating, 1554.78266, 1865.73919, 4.63839E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.79943, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE20, Cooling, 1437.55239, 1725.06286, 0.10726, 0.12871, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE20, Heating, 447.23324, 536.67989, 1.33425E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE21, Cooling, 1569.58369, 1883.50043, 0.11711, 0.14053, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 48.00000, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE21, Heating, 452.95898, 543.55077, 1.35133E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.00000, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE22, Cooling, 1454.63756, 1745.56508, 0.10854, 0.13024, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE22, Heating, 469.46379, 563.35655, 1.40057E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE23, Cooling, 1628.45916, 1954.15100, 0.12150, 0.14581, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.93314, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE23, Heating, 484.41595, 581.29914, 1.44518E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.93314, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE24, Cooling, 1460.29755, 1752.35706, 0.10896, 0.13075, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE24, Heating, 475.21852, 570.26222, 1.41774E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE25, Cooling, 1657.55384, 1989.06461, 0.12368, 0.14841, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.86629, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE25, Heating, 510.48519, 612.58223, 1.52296E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.86629, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE26, Cooling, 1500.22085, 1800.26502, 0.11194, 0.13432, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 34.90000, 1.16790E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE26, Heating, 560.65211, 672.78254, 1.67262E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE27, Cooling, 2098.27922, 2517.93507, 0.15657, 0.18788, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 11:00:00, 32.85300, 1.16755E-002, 47.79943, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE27, Heating, 1057.47984, 1268.97581, 3.15483E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.79943, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE3, Cooling, 2173.39378, 2608.07254, 0.16217, 0.19460, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:45:00, 34.49950, 1.16783E-002, 47.86629, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE3, Heating, 946.82323, 1136.18787, 2.82466E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.86629, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE4, Cooling, 1973.10024, 2367.72029, 0.14722, 0.17667, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:30:00, 34.63300, 1.16786E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE4, Heating, 940.54248, 1128.65098, 2.80592E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE5, Cooling, 2136.95391, 2564.34470, 0.15945, 0.19134, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 34.36600, 1.16781E-002, 47.93314, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE5, Heating, 916.15626, 1099.38751, 2.73317E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.93314, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE6, Cooling, 1934.55351, 2321.46421, 0.14435, 0.17322, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:30:00, 34.63300, 1.16786E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE6, Heating, 899.82164, 1079.78597, 2.68444E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE7, Cooling, 2131.03435, 2557.24122, 0.15901, 0.19081, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 34.36600, 1.16781E-002, 48.00000, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE7, Heating, 912.55319, 1095.06383, 2.72242E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.00000, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE8, Cooling, 1930.04990, 2316.05988, 0.14401, 0.17281, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:30:00, 34.63300, 1.16786E-002, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE8, Heating, 895.63543, 1074.76252, 2.67195E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 47.76600, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE9, Cooling, 2121.73929, 2546.08714, 0.15832, 0.18998, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 34.36600, 1.16781E-002, 48.06686, 7.00000, 6.60800E-002, 0.00000
+ Zone Sizing Information, THERMAL ZONE: ZONE9, Heating, 909.90592, 1091.88711, 2.71452E-002, 6.60800E-002, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -10.80000, 1.49480E-003, 48.06686, 7.00000, 6.60800E-002, 0.00000
+! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity [W], Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
+ System Sizing Information, VAV SYS 1, Cooling, Sensible, 86841.26, 4.67205, 4.67205, BEIJING ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00
+ System Sizing Information, VAV SYS 1, Heating, Sensible, 43776.65, 1.78416, 1.78416, BEIJING ANN HTG 99.6% CONDNS DB, 1/21 00:15:00
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.23271
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.15641
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 3.49062E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 4.87184E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 6.25503E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 5.91393E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE1 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE1 REHEAT COIL, Design Size Rated Capacity [W], 2831.12714
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE1 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 6.25503E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE1 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 65.07414
+! <Water Heating Coil Capacity Information>,Component Type,Name,Nominal Total Capacity {W}
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE1 REHEAT COIL,2579.97
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.17013
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.21394
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.55199E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.56180E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.28015E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.10182E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE10 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE10 REHEAT COIL, Design Size Rated Capacity [W], 1484.64713
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE10 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.28015E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE10 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 34.12154
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE10 REHEAT COIL,1352.94
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.18918
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.19388
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.83773E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.93035E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.48063E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.29134E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE11 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE11 REHEAT COIL, Design Size Rated Capacity [W], 1575.38797
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE11 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.48063E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE11 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 36.20745
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE11 REHEAT COIL,1435.63
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.17182
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.21184
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.57728E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.59709E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.36843E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.18528E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE12 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE12 REHEAT COIL, Design Size Rated Capacity [W], 1524.60553
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE12 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.36843E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE12 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 35.04009
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE12 REHEAT COIL,1389.35
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.23492
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.15634
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 3.52384E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 4.87386E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 5.39977E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 5.10548E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE13 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE13 REHEAT COIL, Design Size Rated Capacity [W], 2444.02317
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE13 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 5.39977E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE13 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 56.17543
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE13 REHEAT COIL,2227.20
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.21815
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.16685
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 3.27223E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 4.56703E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 5.30637E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 5.01719E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE14 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE14 REHEAT COIL, Design Size Rated Capacity [W], 2401.74879
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE14 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 5.30637E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE14 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 55.20363
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE14 REHEAT COIL,2188.68
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.18419
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.19941
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.76285E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.82132E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.49822E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.30762E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE15 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE15 REHEAT COIL, Design Size Rated Capacity [W], 1583.35201
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE15 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.49822E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE15 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 36.39270
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE15 REHEAT COIL,1442.89
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.16574
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.21961
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.48609E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.46981E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.34439E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.16221E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE16 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE16 REHEAT COIL, Design Size Rated Capacity [W], 1513.72672
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE16 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.34439E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE16 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 34.79217
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE16 REHEAT COIL,1379.44
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.14871
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.24664
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.23069E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.08957E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.05739E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.23069E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE17 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE17 REHEAT COIL, Design Size Rated Capacity [W], 931.20952
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE17 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 2.05739E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE17 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 19.99821
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE17 REHEAT COIL,848.84
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.12987
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.28027
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 1.94800E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 2.71881E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.84654E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.94800E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE18 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE18 REHEAT COIL, Design Size Rated Capacity [W], 835.77378
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE18 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 1.84654E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE18 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 18.16706
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE18 REHEAT COIL,761.78
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.14970
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.24466
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.24556E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.11449E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.05289E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.24556E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE19 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE19 REHEAT COIL, Design Size Rated Capacity [W], 929.17332
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE19 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 2.05289E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE19 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 19.87879
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE19 REHEAT COIL,846.99
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.24082
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.15125
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 3.61230E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 5.03814E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 5.88702E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 5.56606E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE2 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE2 REHEAT COIL, Design Size Rated Capacity [W], 2664.56023
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE2 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 5.88702E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE2 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 61.24511
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE2 REHEAT COIL,2428.18
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.12871
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.28278
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 1.93070E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 2.69466E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.79736E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.93070E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE20 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE20 REHEAT COIL, Design Size Rated Capacity [W], 813.51637
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE20 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 1.79736E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE20 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 17.54205
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE20 REHEAT COIL,741.55
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.14053
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.26026
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.10801E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 2.92779E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.86873E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.10801E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE21 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE21 REHEAT COIL, Design Size Rated Capacity [W], 845.81786
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE21 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 1.86873E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE21 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 17.86618
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE21 REHEAT COIL,771.04
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.13024
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.27946
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 1.95364E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 2.72668E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.86362E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.95364E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE22 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE22 REHEAT COIL, Design Size Rated Capacity [W], 843.50244
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE22 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 1.86362E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE22 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 18.38828
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE22 REHEAT COIL,768.82
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.14581
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.25051
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.18708E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.04185E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.97725E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.18708E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE23 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE23 REHEAT COIL, Design Size Rated Capacity [W], 894.93361
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE23 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 1.97725E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE23 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 19.05631
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE23 REHEAT COIL,815.79
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.13075
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.27838
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 1.96124E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 2.73729E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.88129E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.96124E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE24 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE24 REHEAT COIL, Design Size Rated Capacity [W], 851.50294
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE24 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 1.88129E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE24 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 18.61068
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE24 REHEAT COIL,776.10
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.14841
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.24577
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.22615E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.10052E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.05879E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.22615E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE25 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE25 REHEAT COIL, Design Size Rated Capacity [W], 931.84257
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE25 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 2.05879E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE25 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 20.03544
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE25 REHEAT COIL,849.42
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.13432
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.27097
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.01485E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 2.81212E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.12492E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.01485E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE26 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE26 REHEAT COIL, Design Size Rated Capacity [W], 961.77456
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE26 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 2.12492E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE26 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 22.07033
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE26 REHEAT COIL,876.45
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.18788
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.19386
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.81823E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.93063E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 4.00408E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.78580E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE27 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE27 REHEAT COIL, Design Size Rated Capacity [W], 1812.31148
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE27 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 4.00408E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE27 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 41.65600
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE27 REHEAT COIL,1651.53
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.19460
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.18743
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.91907E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 4.06558E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.58456E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.38959E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE3 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE3 REHEAT COIL, Design Size Rated Capacity [W], 1622.43132
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE3 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.58456E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE3 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 37.28887
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE3 REHEAT COIL,1478.50
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.17667
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.20602
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.65004E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.69864E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.56078E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.36710E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE4 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE4 REHEAT COIL, Design Size Rated Capacity [W], 1611.66531
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE4 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.56078E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE4 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 37.04138
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE4 REHEAT COIL,1468.69
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.19134
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.19089
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.87014E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.99186E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.46842E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.27980E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE5 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE5 REHEAT COIL, Design Size Rated Capacity [W], 1569.86464
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE5 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.46842E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE5 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 36.08048
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE5 REHEAT COIL,1430.60
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.17322
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.21013
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.59827E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.62639E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.40656E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.22132E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE6 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE6 REHEAT COIL, Design Size Rated Capacity [W], 1541.86508
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE6 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.40656E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE6 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 35.43684
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE6 REHEAT COIL,1405.08
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.19081
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.19169
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.86218E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.97526E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.45478E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.26690E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE7 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE7 REHEAT COIL, Design Size Rated Capacity [W], 1563.68869
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE7 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.45478E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE7 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 35.93851
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE7 REHEAT COIL,1424.97
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.17281
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.21062
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.59222E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.61794E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.39071E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.20634E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE8 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE8 REHEAT COIL, Design Size Rated Capacity [W], 1534.68945
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE8 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.39071E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE8 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 35.27189
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE8 REHEAT COIL,1398.54
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Maximum Air Flow Rate [m3/s], 0.18998
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Constant Minimum Air Flow Fraction, 0.19279
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, User-Specified Constant Minimum Air Flow Fraction, 0.15000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Minimum Air Flow Rate [m3/s], 2.84970E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 3.95241E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Maximum Flow Fraction during Reheat [], 1.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.44475E-005
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.25743E-002
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 10.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, THERMAL ZONE: ZONE9 VAV REHEAT, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE9 REHEAT COIL, Design Size Rated Capacity [W], 1559.15111
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE9 REHEAT COIL, Design Size Maximum Water Flow Rate [m3/s], 3.44475E-005
+ Component Sizing Information, Coil:Heating:Water, THERMAL ZONE: ZONE9 REHEAT COIL, Design Size U-Factor Times Area Value [W/K], 35.83421
+Water Heating Coil Capacity Information,Coil:Heating:Water,THERMAL ZONE: ZONE9 REHEAT COIL,1420.83
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 4.67205
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.70081
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Sum of Air Terminal Maximum Flow Rates [m3/s], 4.67205
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Adjusted Heating Design Air Flow Rate [m3/s], 4.67205
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Adjusted Cooling Design Air Flow Rate [m3/s], 4.67205
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Adjusted Main Design Air Flow Rate [m3/s], 4.67205
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, User Heating Air Flow Ratio [], 0.30000
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, VAV SYS 1, Design Supply Air Flow Rate [m3/s], 4.67205
+ Component Sizing Information, Fan:VariableVolume, VAV SYS 1 RETURN FAN, Design Size Maximum Flow Rate [m3/s], 4.67205
+ Component Sizing Information, Controller:OutdoorAir, VAV SYS 1 OA CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 4.67205
+ Component Sizing Information, Controller:OutdoorAir, VAV SYS 1 OA CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.78416
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Inlet Air Temperature [C], 28.55700
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Inlet Water Temperature [C], 7.22000
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Outlet Air Temperature [C], 12.08647
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Inlet Air Humidity Ratio [kgWater/kgDryAir], 9.92731E-003
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Outlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Coil Load [W], 119113.01201
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Water Flow Rate [m3/s], 4.25444E-003
+ Component Sizing Information, Coil:Cooling:Water, VAV SYS 1 COOLING COIL, Design Size Design Air Flow Rate [m3/s], 4.67205
+! <Water Cooling Coil Capacity Information>,Component Type,Name,Nominal Total Capacity {W},Nominal Sensible Capacity {W},Nominal Latent Capacity {W},Nominal Sensible Heat Ratio, Nominal Coil UA Value {W/C}, Nominal Coil Surface Area {m2}
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,VAV SYS 1 COOLING COIL,125927.16,83178.38,42748.78,0.66,14302.13,145.06
+ Component Sizing Information, Coil:Heating:Water, VAV SYS 1 HEATING COIL, Design Size Rated Capacity [W], 34390.39456
+ Component Sizing Information, Coil:Heating:Water, VAV SYS 1 HEATING COIL, Design Size Maximum Water Flow Rate [m3/s], 7.59814E-004
+ Component Sizing Information, Coil:Heating:Water, VAV SYS 1 HEATING COIL, Design Size U-Factor Times Area Value [W/K], 461.66412
+Water Heating Coil Capacity Information,Coil:Heating:Water,VAV SYS 1 HEATING COIL,24366.38
+ Component Sizing Information, Fan:VariableVolume, VAV SYS 1 SUPPLY FAN, Design Size Maximum Flow Rate [m3/s], 4.67205
+ Component Sizing Information, Controller:WaterCoil, VAV SYS 1 COOLING COIL CONTROLLER, Maximum Actuated Flow [m3/s], 4.25444E-003
+ Component Sizing Information, Controller:WaterCoil, VAV SYS 1 COOLING COIL CONTROLLER, Controller Convergence Tolerance, 1.11928E-004
+ Component Sizing Information, Controller:WaterCoil, VAV SYS 1 HEATING COIL CONTROLLER, Maximum Actuated Flow [m3/s], 7.59814E-004
+ Component Sizing Information, Controller:WaterCoil, VAV SYS 1 HEATING COIL CONTROLLER, Controller Convergence Tolerance, 6.26720E-004
+ Component Sizing Information, PlantLoop, HOT WATER LOOP HOT WATER LOOP, Maximum Loop Flow Rate [m3/s], 1.63645E-003
+ Component Sizing Information, PlantLoop, HOT WATER LOOP HOT WATER LOOP, Plant Loop Volume [m3], 0.19637
+ Component Sizing Information, PlantLoop, HOT WATER LOOP HOT WATER LOOP, Design Supply Temperature [C], 82.00000
+ Component Sizing Information, PlantLoop, HOT WATER LOOP HOT WATER LOOP, Design Return Temperature [C], 71.00000
+ Component Sizing Information, PlantLoop, HOT WATER LOOP HOT WATER LOOP, Sizing option (Coincident/NonCoincident), 1.00000
+ Component Sizing Information, Pump:ConstantSpeed, HOT WATER LOOP HW SUPPLY PUMP, Design Flow Rate [m3/s], 1.63645E-003
+ Component Sizing Information, Pump:ConstantSpeed, HOT WATER LOOP HW SUPPLY PUMP, Design Power Consumption [W], 418.09156
+ Component Sizing Information, Boiler:HotWater, MAIN BOILER, Design Size Nominal Capacity [W], 74068.28729
+ Component Sizing Information, Boiler:HotWater, MAIN BOILER, Design Size Design Water Flow Rate [m3/s], 1.63645E-003
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP CHILLED WATER LOOP, Maximum Loop Flow Rate [m3/s], 4.25444E-003
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP CHILLED WATER LOOP, Plant Loop Volume [m3], 0.51053
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP CHILLED WATER LOOP, Design Supply Temperature [C], 7.22000
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP CHILLED WATER LOOP, Design Return Temperature [C], 0.55000
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP CHILLED WATER LOOP, Sizing option (Coincident/NonCoincident), 1.00000
+ Component Sizing Information, Pump:ConstantSpeed, CHILLED WATER LOOP CHW SUPPLY PUMP, Design Flow Rate [m3/s], 4.25444E-003
+ Component Sizing Information, Pump:ConstantSpeed, CHILLED WATER LOOP CHW SUPPLY PUMP, Design Power Consumption [W], 1086.95507
+ Component Sizing Information, Chiller:Electric:EIR, MAIN CHILLER, Design Size Reference Chilled Water Flow Rate [m3/s], 4.25444E-003
+ Component Sizing Information, Chiller:Electric:EIR, MAIN CHILLER, Design Size Reference Capacity [W], 119113.01201
+ Component Sizing Information, Chiller:Electric:EIR, MAIN CHILLER, Design Size Reference Condenser Fluid Flow Rate [m3/s], 6.67961E-003
+! <Chiller Standard Rating Information>, Component Type, Component Name, IPLV in SI Units {W/W}, IPLV in IP Units {Btu/W-h}
+ Chiller Standard Rating Information, Chiller:Electric:EIR, MAIN CHILLER, 3.04, 10.29
+ Component Sizing Information, CondenserLoop, CHILLED WATER LOOP CONDENSER WATER LOOP, Maximum Loop Flow Rate [m3/s], 6.67961E-003
+ Component Sizing Information, CondenserLoop, CHILLED WATER LOOP CONDENSER WATER LOOP, Condenser Loop Volume [m3], 0.80155
+ Component Sizing Information, CondenserLoop, CHILLED WATER LOOP CONDENSER WATER LOOP, Design Supply Temperature [C], 29.40000
+ Component Sizing Information, CondenserLoop, CHILLED WATER LOOP CONDENSER WATER LOOP, Design Return Temperature [C], 23.80000
+ Component Sizing Information, CondenserLoop, CHILLED WATER LOOP CONDENSER WATER LOOP, Sizing option (Coincident/NonCoincident), 1.00000
+ Component Sizing Information, Pump:VariableSpeed, CHILLED WATER LOOP CNDW SUPPLY PUMP, Design Flow Rate [m3/s], 6.67961E-003
+ Component Sizing Information, Pump:VariableSpeed, CHILLED WATER LOOP CNDW SUPPLY PUMP, Design Power Consumption [W], 1706.55422
+ Component Sizing Information, CoolingTower:SingleSpeed, MAIN TOWER, Design Water Flow Rate [m3/s], 6.67961E-003
+ Component Sizing Information, CoolingTower:SingleSpeed, MAIN TOWER, Fan Power at Design Air Flow Rate [W], 1641.52620
+ Component Sizing Information, CoolingTower:SingleSpeed, MAIN TOWER, Design Air Flow Rate [m3/s], 4.43161
+ Component Sizing Information, CoolingTower:SingleSpeed, MAIN TOWER, U-Factor Times Area Value at Design Air Flow Rate [W/C], 9423.94047
+ Component Sizing Information, CoolingTower:SingleSpeed, MAIN TOWER, Free Convection Regime Air Flow Rate [m3/s], 0.44316
+ Component Sizing Information, CoolingTower:SingleSpeed, MAIN TOWER, Free Convection U-Factor Times Area Value [W/K], 942.39405
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values, Sky Temperature Model
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,RUN PERIOD 1,WeatherFileRunPeriod,06/01/2009,09/01/2009,Monday,93,Use RunPeriod Specified Day,No,No,No,Yes,Yes,Clark and Allen
+Environment:Daylight Saving,No,RunPeriod Object
+Environment:WarmupDays,  6
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,THERMAL ZONE: ZONE1,RunPeriod: RUN PERIOD 1,4.2001278706E-002,6.7225286957E-002,Pass,Pass,3.5453455216E-002,0.1196605826,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE10,RunPeriod: RUN PERIOD 1,3.2668626331E-002,8.4370880666E-002,Pass,Pass,3.9249809530E-002,0.1615560226,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE11,RunPeriod: RUN PERIOD 1,4.1201121679E-002,0.1146509772,Pass,Pass,3.9972934001E-002,0.1515388613,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE12,RunPeriod: RUN PERIOD 1,3.2926988755E-002,8.4637928279E-002,Pass,Pass,3.9443196440E-002,0.1628344324,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE13,RunPeriod: RUN PERIOD 1,4.5808457323E-002,0.1282508196,Pass,Pass,3.9894714122E-002,0.1358080146,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE14,RunPeriod: RUN PERIOD 1,4.0387940310E-002,9.8368074817E-002,Pass,Pass,3.9568880123E-002,0.1443048953,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE15,RunPeriod: RUN PERIOD 1,5.9974853641E-002,0.1894004947,Pass,Pass,4.2056884100E-002,8.3201990336E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE16,RunPeriod: RUN PERIOD 1,5.7536930589E-002,0.1722000855,Pass,Pass,3.9630110678E-002,7.8254181728E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE17,RunPeriod: RUN PERIOD 1,5.8222187736E-002,0.1597207408,Pass,Pass,3.8858383688E-002,8.5250257565E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE18,RunPeriod: RUN PERIOD 1,5.5041661594E-002,0.1436042336,Pass,Pass,3.9239491456E-002,9.9604194289E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE19,RunPeriod: RUN PERIOD 1,5.8872102664E-002,0.1597316344,Pass,Pass,3.8882602423E-002,8.4940807437E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE2,RunPeriod: RUN PERIOD 1,4.5210133359E-002,8.0610761783E-002,Pass,Pass,3.6621052090E-002,0.1235800199,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE20,RunPeriod: RUN PERIOD 1,5.5199880133E-002,0.1450756194,Pass,Pass,3.8258125565E-002,9.6634131104E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE21,RunPeriod: RUN PERIOD 1,5.6528579364E-002,0.1547699599,Pass,Pass,4.0250001730E-002,9.4254404538E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE22,RunPeriod: RUN PERIOD 1,5.5991786011E-002,0.1421120662,Pass,Pass,3.7402830429E-002,9.2196769912E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE23,RunPeriod: RUN PERIOD 1,5.7769890074E-002,0.1577234838,Pass,Pass,3.9401666016E-002,8.8934012116E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE24,RunPeriod: RUN PERIOD 1,5.6188039523E-002,0.1545478910,Pass,Pass,4.5081884633E-002,0.1187493485,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE25,RunPeriod: RUN PERIOD 1,5.8504556412E-002,0.1588211414,Pass,Pass,3.8884116970E-002,8.7673956881E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE26,RunPeriod: RUN PERIOD 1,5.5773580255E-002,0.1496679098,Pass,Pass,3.9192352837E-002,9.5028022107E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE27,RunPeriod: RUN PERIOD 1,6.3663454230E-002,0.1396042144,Pass,Pass,3.7095250700E-002,7.7995289590E-002,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE28,RunPeriod: RUN PERIOD 1,8.8407470774E-002,0.2122679269,Pass,Pass,1.4250692319,3.9918687777,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE3,RunPeriod: RUN PERIOD 1,4.2176088142E-002,0.1232550038,Pass,Pass,3.9529609635E-002,0.1448978458,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE4,RunPeriod: RUN PERIOD 1,3.4812261151E-002,8.3953784511E-002,Pass,Pass,3.8693613604E-002,0.1559497781,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE5,RunPeriod: RUN PERIOD 1,4.1599902607E-002,0.1209336705,Pass,Pass,3.9712173877E-002,0.1461504039,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE6,RunPeriod: RUN PERIOD 1,3.3663351428E-002,8.2298758587E-002,Pass,Pass,3.8898910418E-002,0.1579745116,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE7,RunPeriod: RUN PERIOD 1,4.1187227619E-002,0.1192008852,Pass,Pass,3.9678258037E-002,0.1462432042,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE8,RunPeriod: RUN PERIOD 1,3.3410175884E-002,8.1600545627E-002,Pass,Pass,3.8898058685E-002,0.1581730239,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: ZONE9,RunPeriod: RUN PERIOD 1,4.1228461097E-002,0.1181251376,Pass,Pass,3.9767673165E-002,0.1478682774,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

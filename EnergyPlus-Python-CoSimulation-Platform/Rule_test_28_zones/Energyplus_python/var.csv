@@ -1,0 +1,2039 @@
+**ACTUATORS**
+Actuator,Weather Data,Outdoor Dry Bulb,Environment
+Actuator,Weather Data,Outdoor Dew Point,Environment
+Actuator,Weather Data,Outdoor Relative Humidity,Environment
+Actuator,Weather Data,Diffuse Solar,Environment
+Actuator,Weather Data,Direct Solar,Environment
+Actuator,Weather Data,Wind Speed,Environment
+Actuator,Weather Data,Wind Direction,Environment
+Actuator,Schedule:Year,Schedule Value,OFFICE BLDG LIGHT
+Actuator,Schedule:Year,Schedule Value,OFFICE WORK OCC
+Actuator,Schedule:Year,Schedule Value,OFFICE ACTIVITY
+Actuator,Schedule:Year,Schedule Value,OFFICE BLDG EQUIP
+Actuator,Schedule:Year,Schedule Value,HVAC_HEAT
+Actuator,Schedule:Year,Schedule Value,HVAC_COOL
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE 1
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE 2
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE 3
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE 4
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE 5
+Actuator,Schedule:Year,Schedule Value,CHILLED_WATER_TEMPERATURE 6
+Actuator,Schedule:Year,Schedule Value,CLOTHING SCHEDULE
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 1
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 10
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 2
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 3
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 4
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 5
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 6
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 7
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 8
+Actuator,Schedule:Year,Schedule Value,DECK_TEMPERATURE 9
+Actuator,Schedule:Year,Schedule Value,HOT_WATER_TEMPERATURE
+Actuator,Schedule:Year,Schedule Value,HOT_WATER_TEMPERATURE 1
+Actuator,Schedule:Year,Schedule Value,HOT_WATER_TEMPERATURE 2
+Actuator,Schedule:Year,Schedule Value,INFILTRATION OFF
+Actuator,Schedule:Year,Schedule Value,LARGE OFFICE ACTIVITY
+Actuator,Schedule:Year,Schedule Value,LARGE OFFICE BLDG EQUIP
+Actuator,Schedule:Year,Schedule Value,LARGE OFFICE BLDG LIGHT
+Actuator,Schedule:Year,Schedule Value,LARGE OFFICE BLDG OCC
+Actuator,Schedule:Year,Schedule Value,LARGE OFFICE INFIL QUARTER ON
+Actuator,Schedule:Year,Schedule Value,OFFICE INFIL QUARTER ON
+Actuator,Schedule:Year,Schedule Value,OFFICE MISC OCC
+Actuator,Schedule:Year,Schedule Value,MEETING OFFICE WORK OCC
+Actuator,Schedule:Compact,Schedule Value,THERMAL ZONE 1 THERMOSTAT SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,THERMAL ZONE 2 THERMOSTAT SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,THERMAL ZONE 3 THERMOSTAT SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,THERMAL ZONE 4 THERMOSTAT SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,THERMAL ZONE 5 THERMOSTAT SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,THERMAL ZONE 6 THERMOSTAT SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,CLOTHING INSULATION SCHEDULE2
+Actuator,Schedule:Compact,Schedule Value,AIR VELOCITY SCHEDULE
+Actuator,Schedule:Compact,Schedule Value,WORK EFFICIENCY
+Actuator,Schedule:Compact,Schedule Value,HTG-SETP-SCH
+Actuator,Schedule:Compact,Schedule Value,CLG-SETP-SCH
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 27
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 28
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 29
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 30
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 31
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 1
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 10
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 11
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 12
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 13
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 14
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 15
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 16
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 17
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 18
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 19
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 2
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 20
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 21
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 22
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 23
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 24
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 25
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 26
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 3
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 32
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 4
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 5
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 6
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 7
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 8
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON DISCRETE 9
+Actuator,Schedule:Constant,Schedule Value,ALWAYS OFF DISCRETE
+Actuator,Schedule:Constant,Schedule Value,ALWAYS ON CONTINUOUS
+Actuator,Material,Surface Property Solar Absorptance,1/2IN GYPSUM
+Actuator,Material,Surface Property Thermal Absorptance,1/2IN GYPSUM
+Actuator,Material,Surface Property Visible Absorptance,1/2IN GYPSUM
+Actuator,Material,Surface Property Solar Absorptance,1IN STUCCO
+Actuator,Material,Surface Property Thermal Absorptance,1IN STUCCO
+Actuator,Material,Surface Property Visible Absorptance,1IN STUCCO
+Actuator,Material,Surface Property Solar Absorptance,8IN CONCRETE HW
+Actuator,Material,Surface Property Thermal Absorptance,8IN CONCRETE HW
+Actuator,Material,Surface Property Visible Absorptance,8IN CONCRETE HW
+Actuator,Material,Surface Property Solar Absorptance,F08 METAL SURFACE
+Actuator,Material,Surface Property Thermal Absorptance,F08 METAL SURFACE
+Actuator,Material,Surface Property Visible Absorptance,F08 METAL SURFACE
+Actuator,Material,Surface Property Solar Absorptance,F16 ACOUSTIC TILE
+Actuator,Material,Surface Property Thermal Absorptance,F16 ACOUSTIC TILE
+Actuator,Material,Surface Property Visible Absorptance,F16 ACOUSTIC TILE
+Actuator,Material,Surface Property Solar Absorptance,G01A 19MM GYPSUM BOARD
+Actuator,Material,Surface Property Thermal Absorptance,G01A 19MM GYPSUM BOARD
+Actuator,Material,Surface Property Visible Absorptance,G01A 19MM GYPSUM BOARD
+Actuator,Material,Surface Property Solar Absorptance,G05 25MM WOOD
+Actuator,Material,Surface Property Thermal Absorptance,G05 25MM WOOD
+Actuator,Material,Surface Property Visible Absorptance,G05 25MM WOOD
+Actuator,Material,Surface Property Solar Absorptance,I01 25MM INSULATION BOARD
+Actuator,Material,Surface Property Thermal Absorptance,I01 25MM INSULATION BOARD
+Actuator,Material,Surface Property Visible Absorptance,I01 25MM INSULATION BOARD
+Actuator,Material,Surface Property Solar Absorptance,M11 100MM LIGHTWEIGHT CONCRETE
+Actuator,Material,Surface Property Thermal Absorptance,M11 100MM LIGHTWEIGHT CONCRETE
+Actuator,Material,Surface Property Visible Absorptance,M11 100MM LIGHTWEIGHT CONCRETE
+Actuator,Material,Surface Property Solar Absorptance,MAT-CC05 4 HW CONCRETE
+Actuator,Material,Surface Property Thermal Absorptance,MAT-CC05 4 HW CONCRETE
+Actuator,Material,Surface Property Visible Absorptance,MAT-CC05 4 HW CONCRETE
+Actuator,Material,Surface Property Solar Absorptance,METAL DECKING
+Actuator,Material,Surface Property Thermal Absorptance,METAL DECKING
+Actuator,Material,Surface Property Visible Absorptance,METAL DECKING
+Actuator,Material,Surface Property Solar Absorptance,ROOF INSULATION [21]
+Actuator,Material,Surface Property Thermal Absorptance,ROOF INSULATION [21]
+Actuator,Material,Surface Property Visible Absorptance,ROOF INSULATION [21]
+Actuator,Material,Surface Property Solar Absorptance,ROOF MEMBRANE
+Actuator,Material,Surface Property Thermal Absorptance,ROOF MEMBRANE
+Actuator,Material,Surface Property Visible Absorptance,ROOF MEMBRANE
+Actuator,Material,Surface Property Solar Absorptance,WALL INSULATION [36]
+Actuator,Material,Surface Property Thermal Absorptance,WALL INSULATION [36]
+Actuator,Material,Surface Property Visible Absorptance,WALL INSULATION [36]
+Actuator,Material,Surface Property Solar Absorptance,CP02 CARPET PAD
+Actuator,Material,Surface Property Thermal Absorptance,CP02 CARPET PAD
+Actuator,Material,Surface Property Visible Absorptance,CP02 CARPET PAD
+Actuator,People,Number of People,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+Actuator,People,Number of People,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+Actuator,People,Number of People,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+Actuator,People,Number of People,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+Actuator,People,Number of People,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+Actuator,People,Number of People,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE COPY
+Actuator,Lights,Electricity Rate,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+Actuator,Lights,Electricity Rate,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+Actuator,Lights,Electricity Rate,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+Actuator,Lights,Electricity Rate,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+Actuator,Lights,Electricity Rate,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+Actuator,Lights,Electricity Rate,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+Actuator,ElectricEquipment,Electricity Rate,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+Actuator,ElectricEquipment,Electricity Rate,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+Actuator,ElectricEquipment,Electricity Rate,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+Actuator,ElectricEquipment,Electricity Rate,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+Actuator,ElectricEquipment,Electricity Rate,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+Actuator,ElectricEquipment,Electricity Rate,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 2
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 2
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 3
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 3
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 4
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 4
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 5
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 5
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 7
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 7
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 0
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 0
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 1
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 1
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 6
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 6
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 10
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 10
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 11
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 11
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 12
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 12
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 13
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 13
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 8
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 8
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 9
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 9
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 14
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 14
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 17
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 17
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 19
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 19
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 20
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 20
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 21
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 21
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 22
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 22
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 18
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 18
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 15
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 15
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 16
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 16
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 28
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 28
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 29
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 29
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 25
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 25
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 27
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 27
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 30
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 30
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 23
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 23
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 24
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 24
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 26
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 26
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 31
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 31
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 34
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 34
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 35
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 35
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 36
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 36
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 37
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 37
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 32
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 32
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 33
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 33
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 38
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 38
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 41
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 41
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 42
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 42
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 43
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 43
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 44
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 44
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 45
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 45
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 46
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 46
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 39
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 39
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 40
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 40
+Actuator,Surface,Interior Surface Convection Heat Transfer Coefficient,FACE 47
+Actuator,Surface,Exterior Surface Convection Heat Transfer Coefficient,FACE 47
+Actuator,Surface,Construction State,FACE 4
+Actuator,Surface,Construction State,FACE 5
+Actuator,Surface,Construction State,FACE 7
+Actuator,Surface,Construction State,FACE 0
+Actuator,Surface,Construction State,FACE 1
+Actuator,Surface,Construction State,FACE 6
+Actuator,Surface,Construction State,FACE 13
+Actuator,Surface,Construction State,FACE 8
+Actuator,Surface,Construction State,FACE 9
+Actuator,Surface,Construction State,FACE 14
+Actuator,Surface,Construction State,FACE 18
+Actuator,Surface,Construction State,FACE 15
+Actuator,Surface,Construction State,FACE 16
+Actuator,Surface,Construction State,FACE 25
+Actuator,Surface,Construction State,FACE 27
+Actuator,Surface,Construction State,FACE 30
+Actuator,Surface,Construction State,FACE 23
+Actuator,Surface,Construction State,FACE 24
+Actuator,Surface,Construction State,FACE 26
+Actuator,Surface,Construction State,FACE 31
+Actuator,Surface,Construction State,FACE 37
+Actuator,Surface,Construction State,FACE 32
+Actuator,Surface,Construction State,FACE 33
+Actuator,Surface,Construction State,FACE 38
+Actuator,Surface,Construction State,FACE 44
+Actuator,Surface,Construction State,FACE 45
+Actuator,Surface,Construction State,FACE 46
+Actuator,Surface,Construction State,FACE 39
+Actuator,Surface,Construction State,FACE 40
+Actuator,Surface,Construction State,FACE 47
+Actuator,Surface,View Factor To Ground,FACE 4
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 4
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 4
+Actuator,Surface,Outdoor Air Wind Speed,FACE 4
+Actuator,Surface,Outdoor Air Wind Direction,FACE 4
+Actuator,Surface,View Factor To Ground,FACE 5
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 5
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 5
+Actuator,Surface,Outdoor Air Wind Speed,FACE 5
+Actuator,Surface,Outdoor Air Wind Direction,FACE 5
+Actuator,Surface,View Factor To Ground,FACE 7
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 7
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 7
+Actuator,Surface,Outdoor Air Wind Speed,FACE 7
+Actuator,Surface,Outdoor Air Wind Direction,FACE 7
+Actuator,Surface,View Factor To Ground,FACE 1
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 1
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 1
+Actuator,Surface,View Factor To Ground,FACE 6
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 6
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 6
+Actuator,Surface,Outdoor Air Wind Speed,FACE 6
+Actuator,Surface,Outdoor Air Wind Direction,FACE 6
+Actuator,Surface,View Factor To Ground,FACE 13
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 13
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 13
+Actuator,Surface,Outdoor Air Wind Speed,FACE 13
+Actuator,Surface,Outdoor Air Wind Direction,FACE 13
+Actuator,Surface,View Factor To Ground,FACE 9
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 9
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 9
+Actuator,Surface,View Factor To Ground,FACE 14
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 14
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 14
+Actuator,Surface,Outdoor Air Wind Speed,FACE 14
+Actuator,Surface,Outdoor Air Wind Direction,FACE 14
+Actuator,Surface,View Factor To Ground,FACE 18
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 18
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 18
+Actuator,Surface,Outdoor Air Wind Speed,FACE 18
+Actuator,Surface,Outdoor Air Wind Direction,FACE 18
+Actuator,Surface,View Factor To Ground,FACE 16
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 16
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 16
+Actuator,Surface,View Factor To Ground,FACE 25
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 25
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 25
+Actuator,Surface,Outdoor Air Wind Speed,FACE 25
+Actuator,Surface,Outdoor Air Wind Direction,FACE 25
+Actuator,Surface,View Factor To Ground,FACE 27
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 27
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 27
+Actuator,Surface,Outdoor Air Wind Speed,FACE 27
+Actuator,Surface,Outdoor Air Wind Direction,FACE 27
+Actuator,Surface,View Factor To Ground,FACE 30
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 30
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 30
+Actuator,Surface,Outdoor Air Wind Speed,FACE 30
+Actuator,Surface,Outdoor Air Wind Direction,FACE 30
+Actuator,Surface,View Factor To Ground,FACE 24
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 24
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 24
+Actuator,Surface,View Factor To Ground,FACE 26
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 26
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 26
+Actuator,Surface,Outdoor Air Wind Speed,FACE 26
+Actuator,Surface,Outdoor Air Wind Direction,FACE 26
+Actuator,Surface,View Factor To Ground,FACE 31
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 31
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 31
+Actuator,Surface,Outdoor Air Wind Speed,FACE 31
+Actuator,Surface,Outdoor Air Wind Direction,FACE 31
+Actuator,Surface,View Factor To Ground,FACE 37
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 37
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 37
+Actuator,Surface,Outdoor Air Wind Speed,FACE 37
+Actuator,Surface,Outdoor Air Wind Direction,FACE 37
+Actuator,Surface,View Factor To Ground,FACE 33
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 33
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 33
+Actuator,Surface,View Factor To Ground,FACE 38
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 38
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 38
+Actuator,Surface,Outdoor Air Wind Speed,FACE 38
+Actuator,Surface,Outdoor Air Wind Direction,FACE 38
+Actuator,Surface,View Factor To Ground,FACE 44
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 44
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 44
+Actuator,Surface,Outdoor Air Wind Speed,FACE 44
+Actuator,Surface,Outdoor Air Wind Direction,FACE 44
+Actuator,Surface,View Factor To Ground,FACE 45
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 45
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 45
+Actuator,Surface,Outdoor Air Wind Speed,FACE 45
+Actuator,Surface,Outdoor Air Wind Direction,FACE 45
+Actuator,Surface,View Factor To Ground,FACE 46
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 46
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 46
+Actuator,Surface,Outdoor Air Wind Speed,FACE 46
+Actuator,Surface,Outdoor Air Wind Direction,FACE 46
+Actuator,Surface,View Factor To Ground,FACE 40
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 40
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 40
+Actuator,Surface,View Factor To Ground,FACE 47
+Actuator,Surface,Outdoor Air Drybulb Temperature,FACE 47
+Actuator,Surface,Outdoor Air Wetbulb Temperature,FACE 47
+Actuator,Surface,Outdoor Air Wind Speed,FACE 47
+Actuator,Surface,Outdoor Air Wind Direction,FACE 47
+Actuator,Zone,Outdoor Air Drybulb Temperature,THERMAL ZONE 1
+Actuator,Zone,Outdoor Air Wetbulb Temperature,THERMAL ZONE 1
+Actuator,Zone,Outdoor Air Wind Speed,THERMAL ZONE 1
+Actuator,Zone,Outdoor Air Wind Direction,THERMAL ZONE 1
+Actuator,Zone,Outdoor Air Drybulb Temperature,THERMAL ZONE 2
+Actuator,Zone,Outdoor Air Wetbulb Temperature,THERMAL ZONE 2
+Actuator,Zone,Outdoor Air Wind Speed,THERMAL ZONE 2
+Actuator,Zone,Outdoor Air Wind Direction,THERMAL ZONE 2
+Actuator,Zone,Outdoor Air Drybulb Temperature,THERMAL ZONE 3
+Actuator,Zone,Outdoor Air Wetbulb Temperature,THERMAL ZONE 3
+Actuator,Zone,Outdoor Air Wind Speed,THERMAL ZONE 3
+Actuator,Zone,Outdoor Air Wind Direction,THERMAL ZONE 3
+Actuator,Zone,Outdoor Air Drybulb Temperature,THERMAL ZONE 4
+Actuator,Zone,Outdoor Air Wetbulb Temperature,THERMAL ZONE 4
+Actuator,Zone,Outdoor Air Wind Speed,THERMAL ZONE 4
+Actuator,Zone,Outdoor Air Wind Direction,THERMAL ZONE 4
+Actuator,Zone,Outdoor Air Drybulb Temperature,THERMAL ZONE 5
+Actuator,Zone,Outdoor Air Wetbulb Temperature,THERMAL ZONE 5
+Actuator,Zone,Outdoor Air Wind Speed,THERMAL ZONE 5
+Actuator,Zone,Outdoor Air Wind Direction,THERMAL ZONE 5
+Actuator,Zone,Outdoor Air Drybulb Temperature,THERMAL ZONE 6
+Actuator,Zone,Outdoor Air Wetbulb Temperature,THERMAL ZONE 6
+Actuator,Zone,Outdoor Air Wind Speed,THERMAL ZONE 6
+Actuator,Zone,Outdoor Air Wind Direction,THERMAL ZONE 6
+Actuator,Zone Infiltration,Air Exchange Flow Rate,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 INFILTRATION
+Actuator,Zone Infiltration,Air Exchange Flow Rate,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 INFILTRATION
+Actuator,Zone Infiltration,Air Exchange Flow Rate,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 INFILTRATION
+Actuator,Zone Infiltration,Air Exchange Flow Rate,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 INFILTRATION
+Actuator,Zone Infiltration,Air Exchange Flow Rate,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 INFILTRATION
+Actuator,Zone Infiltration,Air Exchange Flow Rate,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 INFILTRATION
+Actuator,Sizing:Zone,Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 1
+Actuator,Sizing:Zone,Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 1
+Actuator,Sizing:Zone,Zone Design Heating Load,THERMAL ZONE 1
+Actuator,Sizing:Zone,Zone Design Cooling Load,THERMAL ZONE 1
+Actuator,Sizing:Zone,Zone Design Heating Vol Flow,THERMAL ZONE 1
+Actuator,Sizing:Zone,Zone Design Cooling Vol Flow,THERMAL ZONE 1
+Actuator,Sizing:Zone,Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 2
+Actuator,Sizing:Zone,Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 2
+Actuator,Sizing:Zone,Zone Design Heating Load,THERMAL ZONE 2
+Actuator,Sizing:Zone,Zone Design Cooling Load,THERMAL ZONE 2
+Actuator,Sizing:Zone,Zone Design Heating Vol Flow,THERMAL ZONE 2
+Actuator,Sizing:Zone,Zone Design Cooling Vol Flow,THERMAL ZONE 2
+Actuator,Sizing:Zone,Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 3
+Actuator,Sizing:Zone,Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 3
+Actuator,Sizing:Zone,Zone Design Heating Load,THERMAL ZONE 3
+Actuator,Sizing:Zone,Zone Design Cooling Load,THERMAL ZONE 3
+Actuator,Sizing:Zone,Zone Design Heating Vol Flow,THERMAL ZONE 3
+Actuator,Sizing:Zone,Zone Design Cooling Vol Flow,THERMAL ZONE 3
+Actuator,Sizing:Zone,Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 4
+Actuator,Sizing:Zone,Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 4
+Actuator,Sizing:Zone,Zone Design Heating Load,THERMAL ZONE 4
+Actuator,Sizing:Zone,Zone Design Cooling Load,THERMAL ZONE 4
+Actuator,Sizing:Zone,Zone Design Heating Vol Flow,THERMAL ZONE 4
+Actuator,Sizing:Zone,Zone Design Cooling Vol Flow,THERMAL ZONE 4
+Actuator,Sizing:Zone,Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 5
+Actuator,Sizing:Zone,Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 5
+Actuator,Sizing:Zone,Zone Design Heating Load,THERMAL ZONE 5
+Actuator,Sizing:Zone,Zone Design Cooling Load,THERMAL ZONE 5
+Actuator,Sizing:Zone,Zone Design Heating Vol Flow,THERMAL ZONE 5
+Actuator,Sizing:Zone,Zone Design Cooling Vol Flow,THERMAL ZONE 5
+Actuator,Sizing:Zone,Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 6
+Actuator,Sizing:Zone,Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 6
+Actuator,Sizing:Zone,Zone Design Heating Load,THERMAL ZONE 6
+Actuator,Sizing:Zone,Zone Design Cooling Load,THERMAL ZONE 6
+Actuator,Sizing:Zone,Zone Design Heating Vol Flow,THERMAL ZONE 6
+Actuator,Sizing:Zone,Zone Design Cooling Vol Flow,THERMAL ZONE 6
+Actuator,Zone Temperature Control,Heating Setpoint,THERMAL ZONE 1
+Actuator,Zone Temperature Control,Cooling Setpoint,THERMAL ZONE 1
+Actuator,Zone Temperature Control,Heating Setpoint,THERMAL ZONE 2
+Actuator,Zone Temperature Control,Cooling Setpoint,THERMAL ZONE 2
+Actuator,Zone Temperature Control,Heating Setpoint,THERMAL ZONE 3
+Actuator,Zone Temperature Control,Cooling Setpoint,THERMAL ZONE 3
+Actuator,Zone Temperature Control,Heating Setpoint,THERMAL ZONE 4
+Actuator,Zone Temperature Control,Cooling Setpoint,THERMAL ZONE 4
+Actuator,Zone Temperature Control,Heating Setpoint,THERMAL ZONE 5
+Actuator,Zone Temperature Control,Cooling Setpoint,THERMAL ZONE 5
+Actuator,Zone Temperature Control,Heating Setpoint,THERMAL ZONE 6
+Actuator,Zone Temperature Control,Cooling Setpoint,THERMAL ZONE 6
+Actuator,Fan,Fan Air Mass Flow Rate,FAN CONSTANT VOLUME 1
+Actuator,Fan,Fan Pressure Rise,FAN CONSTANT VOLUME 1
+Actuator,Fan,Fan Total Efficiency,FAN CONSTANT VOLUME 1
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN CONSTANT VOLUME 1
+Actuator,Fan,Fan Air Mass Flow Rate,FAN CONSTANT VOLUME 2
+Actuator,Fan,Fan Pressure Rise,FAN CONSTANT VOLUME 2
+Actuator,Fan,Fan Total Efficiency,FAN CONSTANT VOLUME 2
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN CONSTANT VOLUME 2
+Actuator,Fan,Fan Air Mass Flow Rate,FAN CONSTANT VOLUME 3
+Actuator,Fan,Fan Pressure Rise,FAN CONSTANT VOLUME 3
+Actuator,Fan,Fan Total Efficiency,FAN CONSTANT VOLUME 3
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN CONSTANT VOLUME 3
+Actuator,Fan,Fan Air Mass Flow Rate,FAN CONSTANT VOLUME 4
+Actuator,Fan,Fan Pressure Rise,FAN CONSTANT VOLUME 4
+Actuator,Fan,Fan Total Efficiency,FAN CONSTANT VOLUME 4
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN CONSTANT VOLUME 4
+Actuator,Fan,Fan Air Mass Flow Rate,FAN CONSTANT VOLUME 5
+Actuator,Fan,Fan Pressure Rise,FAN CONSTANT VOLUME 5
+Actuator,Fan,Fan Total Efficiency,FAN CONSTANT VOLUME 5
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN CONSTANT VOLUME 5
+Actuator,Fan,Fan Air Mass Flow Rate,FAN CONSTANT VOLUME 6
+Actuator,Fan,Fan Pressure Rise,FAN CONSTANT VOLUME 6
+Actuator,Fan,Fan Total Efficiency,FAN CONSTANT VOLUME 6
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN CONSTANT VOLUME 6
+Actuator,Fan,Fan Air Mass Flow Rate,FAN VARIABLE VOLUME 1
+Actuator,Fan,Fan Pressure Rise,FAN VARIABLE VOLUME 1
+Actuator,Fan,Fan Total Efficiency,FAN VARIABLE VOLUME 1
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN VARIABLE VOLUME 1
+Actuator,Fan,Fan Air Mass Flow Rate,FAN VARIABLE VOLUME 2
+Actuator,Fan,Fan Pressure Rise,FAN VARIABLE VOLUME 2
+Actuator,Fan,Fan Total Efficiency,FAN VARIABLE VOLUME 2
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN VARIABLE VOLUME 2
+Actuator,Fan,Fan Air Mass Flow Rate,FAN VARIABLE VOLUME 3
+Actuator,Fan,Fan Pressure Rise,FAN VARIABLE VOLUME 3
+Actuator,Fan,Fan Total Efficiency,FAN VARIABLE VOLUME 3
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN VARIABLE VOLUME 3
+Actuator,Fan,Fan Air Mass Flow Rate,FAN VARIABLE VOLUME 4
+Actuator,Fan,Fan Pressure Rise,FAN VARIABLE VOLUME 4
+Actuator,Fan,Fan Total Efficiency,FAN VARIABLE VOLUME 4
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN VARIABLE VOLUME 4
+Actuator,Fan,Fan Air Mass Flow Rate,FAN VARIABLE VOLUME 5
+Actuator,Fan,Fan Pressure Rise,FAN VARIABLE VOLUME 5
+Actuator,Fan,Fan Total Efficiency,FAN VARIABLE VOLUME 5
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN VARIABLE VOLUME 5
+Actuator,Fan,Fan Air Mass Flow Rate,FAN VARIABLE VOLUME 6
+Actuator,Fan,Fan Pressure Rise,FAN VARIABLE VOLUME 6
+Actuator,Fan,Fan Total Efficiency,FAN VARIABLE VOLUME 6
+Actuator,Fan,Fan Autosized Air Flow Rate,FAN VARIABLE VOLUME 6
+Actuator,Sizing:System,Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Supply Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Supply Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Supply Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Supply Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,Sizing:System,Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Supply Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Supply Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Supply Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Supply Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,Sizing:System,Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Supply Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Supply Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Supply Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Supply Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,Sizing:System,Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Supply Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Supply Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Supply Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Supply Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,Sizing:System,Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Supply Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Supply Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Supply Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Supply Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,Sizing:System,Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Sizing:System,Main Supply Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Sizing:System,Main Supply Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Sizing:System,Main Supply Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Sizing:System,Main Supply Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Sizing:System,Main Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Sizing:System,Main Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+Actuator,Outdoor Air Controller,Air Mass Flow Rate,CONTROLLER OUTDOOR AIR 1
+Actuator,Outdoor Air Controller,Air Mass Flow Rate,CONTROLLER OUTDOOR AIR 2
+Actuator,Outdoor Air Controller,Air Mass Flow Rate,CONTROLLER OUTDOOR AIR 3
+Actuator,Outdoor Air Controller,Air Mass Flow Rate,CONTROLLER OUTDOOR AIR 4
+Actuator,Outdoor Air Controller,Air Mass Flow Rate,CONTROLLER OUTDOOR AIR 5
+Actuator,Outdoor Air Controller,Air Mass Flow Rate,CONTROLLER OUTDOOR AIR 6
+Actuator,Curve,Curve Result,CURVE BIQUADRATIC 1
+Actuator,Curve,Curve Result,CURVE BIQUADRATIC 2
+Actuator,Curve,Curve Result,CURVE BIQUADRATIC 3
+Actuator,Curve,Curve Result,CURVE BIQUADRATIC 4
+Actuator,Curve,Curve Result,CURVE QUADRATIC 1
+Actuator,Curve,Curve Result,CURVE QUADRATIC 2
+Actuator,Curve,Curve Result,CURVE QUADRATIC 3
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 12
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 12
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 12
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 12
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 12
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 12
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 12
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 12
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 12
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 20
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 20
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 20
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 20
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 20
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 20
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 20
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 20
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 20
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 19
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 19
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 19
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 19
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 19
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 19
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 19
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 19
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 19
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 25
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 25
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 25
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 25
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 25
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 25
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 25
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 25
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 25
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 33
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 33
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 33
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 33
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 33
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 33
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 33
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 33
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 33
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 32
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 32
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 32
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 32
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 32
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 32
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 32
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 32
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 32
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 38
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 38
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 38
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 38
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 38
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 38
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 38
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 38
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 38
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 46
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 46
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 46
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 46
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 46
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 46
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 46
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 46
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 46
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 45
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 45
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 45
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 45
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 45
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 45
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 45
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 45
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 45
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 51
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 51
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 51
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 51
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 51
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 51
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 51
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 51
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 51
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 59
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 59
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 59
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 59
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 59
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 59
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 59
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 59
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 59
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 58
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 58
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 58
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 58
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 58
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 58
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 58
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 58
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 58
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 64
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 64
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 64
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 64
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 64
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 64
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 64
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 64
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 64
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 72
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 72
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 72
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 72
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 72
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 72
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 72
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 72
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 72
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 71
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 71
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 71
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 71
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 71
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 71
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 71
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 71
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 71
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 77
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 77
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 77
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 77
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 77
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 77
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 77
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 77
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 77
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 85
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 85
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 85
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 85
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 85
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 85
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 85
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 85
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 85
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 84
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 84
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 84
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 84
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 84
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 84
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 84
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 84
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 84
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 9
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 9
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 9
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 9
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 9
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 9
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 9
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 9
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 9
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 10
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 10
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 10
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 10
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 10
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 10
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 10
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 10
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 10
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 22
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 22
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 22
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 22
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 22
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 22
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 22
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 22
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 22
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 23
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 23
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 23
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 23
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 23
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 23
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 23
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 23
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 23
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 35
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 35
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 35
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 35
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 35
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 35
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 35
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 35
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 35
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 36
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 36
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 36
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 36
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 36
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 36
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 36
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 36
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 36
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 48
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 48
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 48
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 48
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 48
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 48
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 48
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 48
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 48
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 49
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 49
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 49
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 49
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 49
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 49
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 49
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 49
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 49
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 61
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 61
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 61
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 61
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 61
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 61
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 61
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 61
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 61
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 62
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 62
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 62
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 62
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 62
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 62
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 62
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 62
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 62
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 74
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 74
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 74
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 74
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 74
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 74
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 74
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 74
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 74
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 75
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 75
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 75
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 75
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 75
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 75
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 75
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 75
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 75
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 8
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 8
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 8
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 8
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 8
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 8
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 8
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 8
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 8
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 15
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 15
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 15
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 15
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 15
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 15
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 15
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 15
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 15
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 16
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 16
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 16
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 16
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 16
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 16
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 16
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 16
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 16
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 17
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 17
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 17
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 17
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 17
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 17
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 17
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 17
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 17
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 21
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 21
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 21
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 21
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 21
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 21
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 21
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 21
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 21
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 28
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 28
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 28
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 28
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 28
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 28
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 28
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 28
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 28
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 29
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 29
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 29
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 29
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 29
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 29
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 29
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 29
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 29
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 30
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 30
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 30
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 30
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 30
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 30
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 30
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 30
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 30
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 34
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 34
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 34
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 34
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 34
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 34
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 34
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 34
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 34
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 41
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 41
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 41
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 41
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 41
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 41
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 41
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 41
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 41
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 42
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 42
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 42
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 42
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 42
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 42
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 42
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 42
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 42
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 43
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 43
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 43
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 43
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 43
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 43
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 43
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 43
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 43
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 47
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 47
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 47
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 47
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 47
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 47
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 47
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 47
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 47
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 54
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 54
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 54
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 54
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 54
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 54
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 54
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 54
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 54
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 55
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 55
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 55
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 55
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 55
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 55
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 55
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 55
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 55
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 56
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 56
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 56
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 56
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 56
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 56
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 56
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 56
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 56
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 60
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 60
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 60
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 60
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 60
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 60
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 60
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 60
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 60
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 67
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 67
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 67
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 67
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 67
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 67
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 67
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 67
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 67
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 68
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 68
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 68
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 68
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 68
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 68
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 68
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 68
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 68
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 69
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 69
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 69
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 69
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 69
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 69
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 69
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 69
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 69
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 73
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 73
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 73
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 73
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 73
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 73
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 73
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 73
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 73
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 80
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 80
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 80
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 80
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 80
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 80
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 80
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 80
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 80
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 81
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 81
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 81
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 81
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 81
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 81
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 81
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 81
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 81
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 82
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 82
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 82
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 82
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 82
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 82
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 82
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 82
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 82
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 3
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 3
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 3
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 3
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 3
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 3
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 3
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 3
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 3
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 4
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 4
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 4
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 4
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 4
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 4
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 4
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 4
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 4
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 5
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 5
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 5
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 5
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 5
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 5
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 5
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 5
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 5
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 6
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 6
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 6
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 6
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 6
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 6
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 6
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 6
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 6
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 1
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 1
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 1
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 1
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 1
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 1
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 1
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 1
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 1
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 7
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 7
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 7
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 7
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 7
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 7
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 7
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 7
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 7
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 11
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 11
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 11
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 11
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 11
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 11
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 11
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 11
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 11
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 24
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 24
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 24
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 24
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 24
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 24
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 24
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 24
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 24
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 37
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 37
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 37
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 37
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 37
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 37
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 37
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 37
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 37
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 50
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 50
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 50
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 50
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 50
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 50
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 50
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 50
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 50
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 63
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 63
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 63
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 63
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 63
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 63
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 63
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 63
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 63
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 76
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 76
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 76
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 76
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 76
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 76
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 76
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 76
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 76
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 13
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 13
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 13
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 13
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 13
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 13
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 13
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 13
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 13
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 26
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 26
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 26
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 26
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 26
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 26
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 26
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 26
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 26
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 39
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 39
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 39
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 39
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 39
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 39
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 39
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 39
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 39
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 52
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 52
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 52
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 52
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 52
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 52
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 52
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 52
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 52
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 65
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 65
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 65
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 65
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 65
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 65
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 65
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 65
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 65
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 78
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 78
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 78
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 78
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 78
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 78
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 78
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 78
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 78
+Actuator,System Node Setpoint,Temperature Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,MODEL OUTDOOR AIR NODE
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 18
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 18
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 18
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 18
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 18
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 18
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 18
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 18
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 18
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 31
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 31
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 31
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 31
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 31
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 31
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 31
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 31
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 31
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 44
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 44
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 44
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 44
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 44
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 44
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 44
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 44
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 44
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 57
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 57
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 57
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 57
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 57
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 57
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 57
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 57
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 57
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 70
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 70
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 70
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 70
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 70
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 70
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 70
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 70
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 70
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 83
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 83
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 83
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 83
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 83
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 83
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 83
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 83
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 83
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 1 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 FAN OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 2 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 3 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 4 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 5 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,AIR TERMINAL SINGLE DUCT PARALLEL PIU REHEAT 6 MIXER OUTLET
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 14
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 14
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 14
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 14
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 14
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 14
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 14
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 14
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 14
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 27
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 27
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 27
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 27
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 27
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 27
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 27
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 27
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 27
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 40
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 40
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 40
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 40
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 40
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 40
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 40
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 40
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 40
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 53
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 53
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 53
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 53
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 53
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 53
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 53
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 53
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 53
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 66
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 66
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 66
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 66
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 66
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 66
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 66
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 66
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 66
+Actuator,System Node Setpoint,Temperature Setpoint,NODE 79
+Actuator,System Node Setpoint,Temperature Minimum Setpoint,NODE 79
+Actuator,System Node Setpoint,Temperature Maximum Setpoint,NODE 79
+Actuator,System Node Setpoint,Humidity Ratio Setpoint,NODE 79
+Actuator,System Node Setpoint,Humidity Ratio Maximum Setpoint,NODE 79
+Actuator,System Node Setpoint,Humidity Ratio Minimum Setpoint,NODE 79
+Actuator,System Node Setpoint,Mass Flow Rate Setpoint,NODE 79
+Actuator,System Node Setpoint,Mass Flow Rate Maximum Available Setpoint,NODE 79
+Actuator,System Node Setpoint,Mass Flow Rate Minimum Available Setpoint,NODE 79
+Actuator,Outdoor Air System Node,Drybulb Temperature,NODE 13
+Actuator,Outdoor Air System Node,Wetbulb Temperature,NODE 13
+Actuator,Outdoor Air System Node,Wind Speed,NODE 13
+Actuator,Outdoor Air System Node,Wind Direction,NODE 13
+Actuator,Outdoor Air System Node,Drybulb Temperature,NODE 26
+Actuator,Outdoor Air System Node,Wetbulb Temperature,NODE 26
+Actuator,Outdoor Air System Node,Wind Speed,NODE 26
+Actuator,Outdoor Air System Node,Wind Direction,NODE 26
+Actuator,Outdoor Air System Node,Drybulb Temperature,NODE 39
+Actuator,Outdoor Air System Node,Wetbulb Temperature,NODE 39
+Actuator,Outdoor Air System Node,Wind Speed,NODE 39
+Actuator,Outdoor Air System Node,Wind Direction,NODE 39
+Actuator,Outdoor Air System Node,Drybulb Temperature,NODE 52
+Actuator,Outdoor Air System Node,Wetbulb Temperature,NODE 52
+Actuator,Outdoor Air System Node,Wind Speed,NODE 52
+Actuator,Outdoor Air System Node,Wind Direction,NODE 52
+Actuator,Outdoor Air System Node,Drybulb Temperature,NODE 65
+Actuator,Outdoor Air System Node,Wetbulb Temperature,NODE 65
+Actuator,Outdoor Air System Node,Wind Speed,NODE 65
+Actuator,Outdoor Air System Node,Wind Direction,NODE 65
+Actuator,Outdoor Air System Node,Drybulb Temperature,NODE 78
+Actuator,Outdoor Air System Node,Wetbulb Temperature,NODE 78
+Actuator,Outdoor Air System Node,Wind Speed,NODE 78
+Actuator,Outdoor Air System Node,Wind Direction,NODE 78
+Actuator,Outdoor Air System Node,Drybulb Temperature,MODEL OUTDOOR AIR NODE
+Actuator,Outdoor Air System Node,Wetbulb Temperature,MODEL OUTDOOR AIR NODE
+Actuator,Outdoor Air System Node,Wind Speed,MODEL OUTDOOR AIR NODE
+Actuator,Outdoor Air System Node,Wind Direction,MODEL OUTDOOR AIR NODE
+Actuator,AirLoopHVAC,Availability Status,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+Actuator,AirLoopHVAC,Availability Status,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+Actuator,AirLoopHVAC,Availability Status,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+Actuator,AirLoopHVAC,Availability Status,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+Actuator,AirLoopHVAC,Availability Status,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+Actuator,AirLoopHVAC,Availability Status,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+**INTERNAL_VARIABLES**
+InternalVariable,People Count Design Level,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+InternalVariable,People Count Design Level,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+InternalVariable,People Count Design Level,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+InternalVariable,People Count Design Level,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+InternalVariable,People Count Design Level,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+InternalVariable,People Count Design Level,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE COPY
+InternalVariable,Lighting Power Design Level,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+InternalVariable,Lighting Power Design Level,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+InternalVariable,Lighting Power Design Level,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+InternalVariable,Lighting Power Design Level,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+InternalVariable,Lighting Power Design Level,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+InternalVariable,Lighting Power Design Level,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+InternalVariable,Plug and Process Power Design Level,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+InternalVariable,Plug and Process Power Design Level,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+InternalVariable,Plug and Process Power Design Level,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+InternalVariable,Plug and Process Power Design Level,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+InternalVariable,Plug and Process Power Design Level,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+InternalVariable,Plug and Process Power Design Level,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+InternalVariable,Zone Floor Area,THERMAL ZONE 1
+InternalVariable,Zone Air Volume,THERMAL ZONE 1
+InternalVariable,Zone Multiplier,THERMAL ZONE 1
+InternalVariable,Zone List Multiplier,THERMAL ZONE 1
+InternalVariable,Zone Floor Area,THERMAL ZONE 2
+InternalVariable,Zone Air Volume,THERMAL ZONE 2
+InternalVariable,Zone Multiplier,THERMAL ZONE 2
+InternalVariable,Zone List Multiplier,THERMAL ZONE 2
+InternalVariable,Zone Floor Area,THERMAL ZONE 3
+InternalVariable,Zone Air Volume,THERMAL ZONE 3
+InternalVariable,Zone Multiplier,THERMAL ZONE 3
+InternalVariable,Zone List Multiplier,THERMAL ZONE 3
+InternalVariable,Zone Floor Area,THERMAL ZONE 4
+InternalVariable,Zone Air Volume,THERMAL ZONE 4
+InternalVariable,Zone Multiplier,THERMAL ZONE 4
+InternalVariable,Zone List Multiplier,THERMAL ZONE 4
+InternalVariable,Zone Floor Area,THERMAL ZONE 5
+InternalVariable,Zone Air Volume,THERMAL ZONE 5
+InternalVariable,Zone Multiplier,THERMAL ZONE 5
+InternalVariable,Zone List Multiplier,THERMAL ZONE 5
+InternalVariable,Zone Floor Area,THERMAL ZONE 6
+InternalVariable,Zone Air Volume,THERMAL ZONE 6
+InternalVariable,Zone Multiplier,THERMAL ZONE 6
+InternalVariable,Zone List Multiplier,THERMAL ZONE 6
+InternalVariable,Final Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 1
+InternalVariable,Final Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 1
+InternalVariable,Final Zone Design Heating Load,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Heating Load,THERMAL ZONE 1
+InternalVariable,Final Zone Design Cooling Load,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Cooling Load,THERMAL ZONE 1
+InternalVariable,Final Zone Design Heating Air Density,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Heating Air Density,THERMAL ZONE 1
+InternalVariable,Final Zone Design Cooling Air Density,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Cooling Air Density,THERMAL ZONE 1
+InternalVariable,Final Zone Design Heating Volume Flow,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Heating Volume Flow,THERMAL ZONE 1
+InternalVariable,Final Zone Design Cooling Volume Flow,THERMAL ZONE 1
+InternalVariable,Intermediate Zone Design Cooling Volume Flow,THERMAL ZONE 1
+InternalVariable,Zone Outdoor Air Design Volume Flow Rate,THERMAL ZONE 1
+InternalVariable,Final Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 2
+InternalVariable,Final Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 2
+InternalVariable,Final Zone Design Heating Load,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Heating Load,THERMAL ZONE 2
+InternalVariable,Final Zone Design Cooling Load,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Cooling Load,THERMAL ZONE 2
+InternalVariable,Final Zone Design Heating Air Density,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Heating Air Density,THERMAL ZONE 2
+InternalVariable,Final Zone Design Cooling Air Density,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Cooling Air Density,THERMAL ZONE 2
+InternalVariable,Final Zone Design Heating Volume Flow,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Heating Volume Flow,THERMAL ZONE 2
+InternalVariable,Final Zone Design Cooling Volume Flow,THERMAL ZONE 2
+InternalVariable,Intermediate Zone Design Cooling Volume Flow,THERMAL ZONE 2
+InternalVariable,Zone Outdoor Air Design Volume Flow Rate,THERMAL ZONE 2
+InternalVariable,Final Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 3
+InternalVariable,Final Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 3
+InternalVariable,Final Zone Design Heating Load,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Heating Load,THERMAL ZONE 3
+InternalVariable,Final Zone Design Cooling Load,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Cooling Load,THERMAL ZONE 3
+InternalVariable,Final Zone Design Heating Air Density,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Heating Air Density,THERMAL ZONE 3
+InternalVariable,Final Zone Design Cooling Air Density,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Cooling Air Density,THERMAL ZONE 3
+InternalVariable,Final Zone Design Heating Volume Flow,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Heating Volume Flow,THERMAL ZONE 3
+InternalVariable,Final Zone Design Cooling Volume Flow,THERMAL ZONE 3
+InternalVariable,Intermediate Zone Design Cooling Volume Flow,THERMAL ZONE 3
+InternalVariable,Zone Outdoor Air Design Volume Flow Rate,THERMAL ZONE 3
+InternalVariable,Final Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 4
+InternalVariable,Final Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 4
+InternalVariable,Final Zone Design Heating Load,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Heating Load,THERMAL ZONE 4
+InternalVariable,Final Zone Design Cooling Load,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Cooling Load,THERMAL ZONE 4
+InternalVariable,Final Zone Design Heating Air Density,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Heating Air Density,THERMAL ZONE 4
+InternalVariable,Final Zone Design Cooling Air Density,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Cooling Air Density,THERMAL ZONE 4
+InternalVariable,Final Zone Design Heating Volume Flow,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Heating Volume Flow,THERMAL ZONE 4
+InternalVariable,Final Zone Design Cooling Volume Flow,THERMAL ZONE 4
+InternalVariable,Intermediate Zone Design Cooling Volume Flow,THERMAL ZONE 4
+InternalVariable,Zone Outdoor Air Design Volume Flow Rate,THERMAL ZONE 4
+InternalVariable,Final Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 5
+InternalVariable,Final Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 5
+InternalVariable,Final Zone Design Heating Load,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Heating Load,THERMAL ZONE 5
+InternalVariable,Final Zone Design Cooling Load,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Cooling Load,THERMAL ZONE 5
+InternalVariable,Final Zone Design Heating Air Density,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Heating Air Density,THERMAL ZONE 5
+InternalVariable,Final Zone Design Cooling Air Density,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Cooling Air Density,THERMAL ZONE 5
+InternalVariable,Final Zone Design Heating Volume Flow,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Heating Volume Flow,THERMAL ZONE 5
+InternalVariable,Final Zone Design Cooling Volume Flow,THERMAL ZONE 5
+InternalVariable,Intermediate Zone Design Cooling Volume Flow,THERMAL ZONE 5
+InternalVariable,Zone Outdoor Air Design Volume Flow Rate,THERMAL ZONE 5
+InternalVariable,Final Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Heating Air Mass Flow Rate,THERMAL ZONE 6
+InternalVariable,Final Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Cooling Air Mass Flow Rate,THERMAL ZONE 6
+InternalVariable,Final Zone Design Heating Load,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Heating Load,THERMAL ZONE 6
+InternalVariable,Final Zone Design Cooling Load,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Cooling Load,THERMAL ZONE 6
+InternalVariable,Final Zone Design Heating Air Density,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Heating Air Density,THERMAL ZONE 6
+InternalVariable,Final Zone Design Cooling Air Density,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Cooling Air Density,THERMAL ZONE 6
+InternalVariable,Final Zone Design Heating Volume Flow,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Heating Volume Flow,THERMAL ZONE 6
+InternalVariable,Final Zone Design Cooling Volume Flow,THERMAL ZONE 6
+InternalVariable,Intermediate Zone Design Cooling Volume Flow,THERMAL ZONE 6
+InternalVariable,Zone Outdoor Air Design Volume Flow Rate,THERMAL ZONE 6
+InternalVariable,Fan Maximum Mass Flow Rate,FAN CONSTANT VOLUME 1
+InternalVariable,Fan Nominal Pressure Rise,FAN CONSTANT VOLUME 1
+InternalVariable,Fan Nominal Total Efficiency,FAN CONSTANT VOLUME 1
+InternalVariable,Fan Maximum Mass Flow Rate,FAN CONSTANT VOLUME 2
+InternalVariable,Fan Nominal Pressure Rise,FAN CONSTANT VOLUME 2
+InternalVariable,Fan Nominal Total Efficiency,FAN CONSTANT VOLUME 2
+InternalVariable,Fan Maximum Mass Flow Rate,FAN CONSTANT VOLUME 3
+InternalVariable,Fan Nominal Pressure Rise,FAN CONSTANT VOLUME 3
+InternalVariable,Fan Nominal Total Efficiency,FAN CONSTANT VOLUME 3
+InternalVariable,Fan Maximum Mass Flow Rate,FAN CONSTANT VOLUME 4
+InternalVariable,Fan Nominal Pressure Rise,FAN CONSTANT VOLUME 4
+InternalVariable,Fan Nominal Total Efficiency,FAN CONSTANT VOLUME 4
+InternalVariable,Fan Maximum Mass Flow Rate,FAN CONSTANT VOLUME 5
+InternalVariable,Fan Nominal Pressure Rise,FAN CONSTANT VOLUME 5
+InternalVariable,Fan Nominal Total Efficiency,FAN CONSTANT VOLUME 5
+InternalVariable,Fan Maximum Mass Flow Rate,FAN CONSTANT VOLUME 6
+InternalVariable,Fan Nominal Pressure Rise,FAN CONSTANT VOLUME 6
+InternalVariable,Fan Nominal Total Efficiency,FAN CONSTANT VOLUME 6
+InternalVariable,Fan Maximum Mass Flow Rate,FAN VARIABLE VOLUME 1
+InternalVariable,Fan Nominal Pressure Rise,FAN VARIABLE VOLUME 1
+InternalVariable,Fan Nominal Total Efficiency,FAN VARIABLE VOLUME 1
+InternalVariable,Fan Maximum Mass Flow Rate,FAN VARIABLE VOLUME 2
+InternalVariable,Fan Nominal Pressure Rise,FAN VARIABLE VOLUME 2
+InternalVariable,Fan Nominal Total Efficiency,FAN VARIABLE VOLUME 2
+InternalVariable,Fan Maximum Mass Flow Rate,FAN VARIABLE VOLUME 3
+InternalVariable,Fan Nominal Pressure Rise,FAN VARIABLE VOLUME 3
+InternalVariable,Fan Nominal Total Efficiency,FAN VARIABLE VOLUME 3
+InternalVariable,Fan Maximum Mass Flow Rate,FAN VARIABLE VOLUME 4
+InternalVariable,Fan Nominal Pressure Rise,FAN VARIABLE VOLUME 4
+InternalVariable,Fan Nominal Total Efficiency,FAN VARIABLE VOLUME 4
+InternalVariable,Fan Maximum Mass Flow Rate,FAN VARIABLE VOLUME 5
+InternalVariable,Fan Nominal Pressure Rise,FAN VARIABLE VOLUME 5
+InternalVariable,Fan Nominal Total Efficiency,FAN VARIABLE VOLUME 5
+InternalVariable,Fan Maximum Mass Flow Rate,FAN VARIABLE VOLUME 6
+InternalVariable,Fan Nominal Pressure Rise,FAN VARIABLE VOLUME 6
+InternalVariable,Fan Nominal Total Efficiency,FAN VARIABLE VOLUME 6
+InternalVariable,Intermediate Air System Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Total Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Preheating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Outdoor Air Design Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Cooling Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Air System Heating Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 1
+InternalVariable,Intermediate Air System Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Total Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Preheating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Outdoor Air Design Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Cooling Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Air System Heating Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 2
+InternalVariable,Intermediate Air System Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Total Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Preheating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Outdoor Air Design Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Cooling Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Air System Heating Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 3
+InternalVariable,Intermediate Air System Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Total Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Preheating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Outdoor Air Design Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Cooling Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Air System Heating Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 4
+InternalVariable,Intermediate Air System Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Total Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Preheating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Outdoor Air Design Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Cooling Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Air System Heating Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 5
+InternalVariable,Intermediate Air System Main Supply Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Intermediate Air System Coincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Intermediate Air System Coincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Intermediate Air System Noncoincident Peak Cooling Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Intermediate Air System Noncoincident Peak Heating Mass Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Intermediate Air System Heating Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Intermediate Air System Cooling Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Total Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Preheating Design Sensible Capacity,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Outdoor Air Design Volume Flow Rate,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Cooling Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Mixed Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Mixed Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Return Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Return Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Outdoor Air Temperature,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Air System Heating Design Outdoor Air Humidity Ratio,PACKAGED ROOFTOP VAV WITH PFP BOXES AND REHEAT 6
+InternalVariable,Outdoor Air Controller Maximum Mass Flow Rate,CONTROLLER OUTDOOR AIR 1
+InternalVariable,Outdoor Air Controller Minimum Mass Flow Rate,CONTROLLER OUTDOOR AIR 1
+InternalVariable,Outdoor Air Controller Maximum Mass Flow Rate,CONTROLLER OUTDOOR AIR 2
+InternalVariable,Outdoor Air Controller Minimum Mass Flow Rate,CONTROLLER OUTDOOR AIR 2
+InternalVariable,Outdoor Air Controller Maximum Mass Flow Rate,CONTROLLER OUTDOOR AIR 3
+InternalVariable,Outdoor Air Controller Minimum Mass Flow Rate,CONTROLLER OUTDOOR AIR 3
+InternalVariable,Outdoor Air Controller Maximum Mass Flow Rate,CONTROLLER OUTDOOR AIR 4
+InternalVariable,Outdoor Air Controller Minimum Mass Flow Rate,CONTROLLER OUTDOOR AIR 4
+InternalVariable,Outdoor Air Controller Maximum Mass Flow Rate,CONTROLLER OUTDOOR AIR 5
+InternalVariable,Outdoor Air Controller Minimum Mass Flow Rate,CONTROLLER OUTDOOR AIR 5
+InternalVariable,Outdoor Air Controller Maximum Mass Flow Rate,CONTROLLER OUTDOOR AIR 6
+InternalVariable,Outdoor Air Controller Minimum Mass Flow Rate,CONTROLLER OUTDOOR AIR 6
+**PLUGIN_GLOBAL_VARIABLES**
+**TRENDS**
+**METERS**
+OutputMeter,Electricity:Facility
+OutputMeter,Electricity:Building
+OutputMeter,Electricity:Zone:THERMAL ZONE 2
+OutputMeter,Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ1-3
+OutputMeter,InteriorLights:Electricity
+OutputMeter,InteriorLights:Electricity:Zone:THERMAL ZONE 2
+OutputMeter,InteriorLights:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ1-3
+OutputMeter,General:InteriorLights:Electricity
+OutputMeter,General:InteriorLights:Electricity:Zone:THERMAL ZONE 2
+OutputMeter,General:InteriorLights:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ1-3
+OutputMeter,Electricity:Zone:THERMAL ZONE 1
+OutputMeter,InteriorLights:Electricity:Zone:THERMAL ZONE 1
+OutputMeter,General:InteriorLights:Electricity:Zone:THERMAL ZONE 1
+OutputMeter,Electricity:Zone:THERMAL ZONE 5
+OutputMeter,InteriorLights:Electricity:Zone:THERMAL ZONE 5
+OutputMeter,General:InteriorLights:Electricity:Zone:THERMAL ZONE 5
+OutputMeter,Electricity:Zone:THERMAL ZONE 3
+OutputMeter,InteriorLights:Electricity:Zone:THERMAL ZONE 3
+OutputMeter,General:InteriorLights:Electricity:Zone:THERMAL ZONE 3
+OutputMeter,Electricity:Zone:THERMAL ZONE 4
+OutputMeter,InteriorLights:Electricity:Zone:THERMAL ZONE 4
+OutputMeter,General:InteriorLights:Electricity:Zone:THERMAL ZONE 4
+OutputMeter,Electricity:Zone:THERMAL ZONE 6
+OutputMeter,InteriorLights:Electricity:Zone:THERMAL ZONE 6
+OutputMeter,General:InteriorLights:Electricity:Zone:THERMAL ZONE 6
+OutputMeter,InteriorEquipment:Electricity
+OutputMeter,InteriorEquipment:Electricity:Zone:THERMAL ZONE 2
+OutputMeter,InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ1-3
+OutputMeter,General:InteriorEquipment:Electricity
+OutputMeter,General:InteriorEquipment:Electricity:Zone:THERMAL ZONE 2
+OutputMeter,General:InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ1-3
+OutputMeter,InteriorEquipment:Electricity:Zone:THERMAL ZONE 1
+OutputMeter,General:InteriorEquipment:Electricity:Zone:THERMAL ZONE 1
+OutputMeter,InteriorEquipment:Electricity:Zone:THERMAL ZONE 5
+OutputMeter,General:InteriorEquipment:Electricity:Zone:THERMAL ZONE 5
+OutputMeter,InteriorEquipment:Electricity:Zone:THERMAL ZONE 3
+OutputMeter,General:InteriorEquipment:Electricity:Zone:THERMAL ZONE 3
+OutputMeter,InteriorEquipment:Electricity:Zone:THERMAL ZONE 4
+OutputMeter,General:InteriorEquipment:Electricity:Zone:THERMAL ZONE 4
+OutputMeter,InteriorEquipment:Electricity:Zone:THERMAL ZONE 6
+OutputMeter,General:InteriorEquipment:Electricity:Zone:THERMAL ZONE 6
+OutputMeter,EnergyTransfer:Facility
+OutputMeter,EnergyTransfer:Building
+OutputMeter,EnergyTransfer:Zone:THERMAL ZONE 1
+OutputMeter,Heating:EnergyTransfer
+OutputMeter,Heating:EnergyTransfer:Zone:THERMAL ZONE 1
+OutputMeter,General:Heating:EnergyTransfer
+OutputMeter,General:Heating:EnergyTransfer:Zone:THERMAL ZONE 1
+OutputMeter,Cooling:EnergyTransfer
+OutputMeter,Cooling:EnergyTransfer:Zone:THERMAL ZONE 1
+OutputMeter,General:Cooling:EnergyTransfer
+OutputMeter,General:Cooling:EnergyTransfer:Zone:THERMAL ZONE 1
+OutputMeter,EnergyTransfer:Zone:THERMAL ZONE 2
+OutputMeter,Heating:EnergyTransfer:Zone:THERMAL ZONE 2
+OutputMeter,General:Heating:EnergyTransfer:Zone:THERMAL ZONE 2
+OutputMeter,Cooling:EnergyTransfer:Zone:THERMAL ZONE 2
+OutputMeter,General:Cooling:EnergyTransfer:Zone:THERMAL ZONE 2
+OutputMeter,EnergyTransfer:Zone:THERMAL ZONE 3
+OutputMeter,Heating:EnergyTransfer:Zone:THERMAL ZONE 3
+OutputMeter,General:Heating:EnergyTransfer:Zone:THERMAL ZONE 3
+OutputMeter,Cooling:EnergyTransfer:Zone:THERMAL ZONE 3
+OutputMeter,General:Cooling:EnergyTransfer:Zone:THERMAL ZONE 3
+OutputMeter,EnergyTransfer:Zone:THERMAL ZONE 4
+OutputMeter,Heating:EnergyTransfer:Zone:THERMAL ZONE 4
+OutputMeter,General:Heating:EnergyTransfer:Zone:THERMAL ZONE 4
+OutputMeter,Cooling:EnergyTransfer:Zone:THERMAL ZONE 4
+OutputMeter,General:Cooling:EnergyTransfer:Zone:THERMAL ZONE 4
+OutputMeter,EnergyTransfer:Zone:THERMAL ZONE 5
+OutputMeter,Heating:EnergyTransfer:Zone:THERMAL ZONE 5
+OutputMeter,General:Heating:EnergyTransfer:Zone:THERMAL ZONE 5
+OutputMeter,Cooling:EnergyTransfer:Zone:THERMAL ZONE 5
+OutputMeter,General:Cooling:EnergyTransfer:Zone:THERMAL ZONE 5
+OutputMeter,EnergyTransfer:Zone:THERMAL ZONE 6
+OutputMeter,Heating:EnergyTransfer:Zone:THERMAL ZONE 6
+OutputMeter,General:Heating:EnergyTransfer:Zone:THERMAL ZONE 6
+OutputMeter,Cooling:EnergyTransfer:Zone:THERMAL ZONE 6
+OutputMeter,General:Cooling:EnergyTransfer:Zone:THERMAL ZONE 6
+OutputMeter,ElectricityPurchased:Facility
+OutputMeter,ElectricityPurchased:Plant
+OutputMeter,Cogeneration:ElectricityPurchased
+OutputMeter,General:Cogeneration:ElectricityPurchased
+OutputMeter,ElectricitySurplusSold:Facility
+OutputMeter,ElectricitySurplusSold:Plant
+OutputMeter,Cogeneration:ElectricitySurplusSold
+OutputMeter,General:Cogeneration:ElectricitySurplusSold
+OutputMeter,ElectricityNet:Facility
+OutputMeter,ElectricityNet:Plant
+OutputMeter,Cogeneration:ElectricityNet
+OutputMeter,General:Cogeneration:ElectricityNet
+OutputMeter,Electricity:HVAC
+OutputMeter,Fans:Electricity
+OutputMeter,General:Fans:Electricity
+OutputMeter,EnergyTransfer:HVAC
+OutputMeter,HeatingCoils:EnergyTransfer
+OutputMeter,Heating:Electricity
+OutputMeter,General:Heating:Electricity
+OutputMeter,CoolingCoils:EnergyTransfer
+OutputMeter,Cooling:Electricity
+OutputMeter,General:Cooling:Electricity
+OutputMeter,Carbon Equivalent:Facility
+OutputMeter,CarbonEquivalentEmissions:Carbon Equivalent
+**VARIABLES**
+OutputVariable,Site Outdoor Air Drybulb Temperature,ENVIRONMENT
+OutputVariable,Site Outdoor Air Relative Humidity,ENVIRONMENT
+OutputVariable,Site Wind Speed,ENVIRONMENT
+OutputVariable,Site Wind Direction,ENVIRONMENT
+OutputVariable,Site Diffuse Solar Radiation Rate per Area,ENVIRONMENT
+OutputVariable,Site Direct Solar Radiation Rate per Area,ENVIRONMENT
+OutputVariable,Zone People Occupant Count,THERMAL ZONE 1
+OutputVariable,Zone People Occupant Count,THERMAL ZONE 2
+OutputVariable,Zone People Occupant Count,THERMAL ZONE 3
+OutputVariable,Zone People Occupant Count,THERMAL ZONE 4
+OutputVariable,Zone People Occupant Count,THERMAL ZONE 5
+OutputVariable,Zone People Occupant Count,THERMAL ZONE 6
+OutputVariable,Lights Electricity Energy,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+OutputVariable,Lights Electricity Energy,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+OutputVariable,Lights Electricity Energy,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+OutputVariable,Lights Electricity Energy,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+OutputVariable,Lights Electricity Energy,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+OutputVariable,Lights Electricity Energy,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 LIGHTS
+OutputVariable,Electric Equipment Electricity Energy,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+OutputVariable,Electric Equipment Electricity Energy,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+OutputVariable,Electric Equipment Electricity Energy,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+OutputVariable,Electric Equipment Electricity Energy,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+OutputVariable,Electric Equipment Electricity Energy,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+OutputVariable,Electric Equipment Electricity Energy,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 ELECTRIC EQUIPMENT
+OutputVariable,Zone Air Temperature,THERMAL ZONE 1
+OutputVariable,Zone Air Relative Humidity,THERMAL ZONE 1
+OutputVariable,Zone Air System Sensible Heating Energy,THERMAL ZONE 1
+OutputVariable,Zone Air System Sensible Cooling Energy,THERMAL ZONE 1
+OutputVariable,Zone Thermostat Heating Setpoint Temperature,THERMAL ZONE 1
+OutputVariable,Zone Thermostat Cooling Setpoint Temperature,THERMAL ZONE 1
+OutputVariable,Zone Air Temperature,THERMAL ZONE 2
+OutputVariable,Zone Air Relative Humidity,THERMAL ZONE 2
+OutputVariable,Zone Air System Sensible Heating Energy,THERMAL ZONE 2
+OutputVariable,Zone Air System Sensible Cooling Energy,THERMAL ZONE 2
+OutputVariable,Zone Thermostat Heating Setpoint Temperature,THERMAL ZONE 2
+OutputVariable,Zone Thermostat Cooling Setpoint Temperature,THERMAL ZONE 2
+OutputVariable,Zone Air Temperature,THERMAL ZONE 3
+OutputVariable,Zone Air Relative Humidity,THERMAL ZONE 3
+OutputVariable,Zone Air System Sensible Heating Energy,THERMAL ZONE 3
+OutputVariable,Zone Air System Sensible Cooling Energy,THERMAL ZONE 3
+OutputVariable,Zone Thermostat Heating Setpoint Temperature,THERMAL ZONE 3
+OutputVariable,Zone Thermostat Cooling Setpoint Temperature,THERMAL ZONE 3
+OutputVariable,Zone Air Temperature,THERMAL ZONE 4
+OutputVariable,Zone Air Relative Humidity,THERMAL ZONE 4
+OutputVariable,Zone Air System Sensible Heating Energy,THERMAL ZONE 4
+OutputVariable,Zone Air System Sensible Cooling Energy,THERMAL ZONE 4
+OutputVariable,Zone Thermostat Heating Setpoint Temperature,THERMAL ZONE 4
+OutputVariable,Zone Thermostat Cooling Setpoint Temperature,THERMAL ZONE 4
+OutputVariable,Zone Air Temperature,THERMAL ZONE 5
+OutputVariable,Zone Air Relative Humidity,THERMAL ZONE 5
+OutputVariable,Zone Air System Sensible Heating Energy,THERMAL ZONE 5
+OutputVariable,Zone Air System Sensible Cooling Energy,THERMAL ZONE 5
+OutputVariable,Zone Thermostat Heating Setpoint Temperature,THERMAL ZONE 5
+OutputVariable,Zone Thermostat Cooling Setpoint Temperature,THERMAL ZONE 5
+OutputVariable,Zone Air Temperature,THERMAL ZONE 6
+OutputVariable,Zone Air Relative Humidity,THERMAL ZONE 6
+OutputVariable,Zone Air System Sensible Heating Energy,THERMAL ZONE 6
+OutputVariable,Zone Air System Sensible Cooling Energy,THERMAL ZONE 6
+OutputVariable,Zone Thermostat Heating Setpoint Temperature,THERMAL ZONE 6
+OutputVariable,Zone Thermostat Cooling Setpoint Temperature,THERMAL ZONE 6
+OutputVariable,Facility Total Purchased Electricity Energy,WHOLE BUILDING
+OutputVariable,Facility Total Surplus Electricity Energy,WHOLE BUILDING
+OutputVariable,Facility Net Purchased Electricity Energy,WHOLE BUILDING
+OutputVariable,Zone Thermal Comfort Fanger Model PPD,2002 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+OutputVariable,Zone Thermal Comfort Fanger Model PPD,2001 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+OutputVariable,Zone Thermal Comfort Fanger Model PPD,2005 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+OutputVariable,Zone Thermal Comfort Fanger Model PPD,2004 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+OutputVariable,Zone Thermal Comfort Fanger Model PPD,2006 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE
+OutputVariable,Zone Thermal Comfort Fanger Model PPD,2003 189.1-2009 - OFFICE - OPENOFFICE - CZ1-3 PEOPLE COPY
+OutputVariable,Fan Electricity Energy,FAN CONSTANT VOLUME 1
+OutputVariable,Fan Electricity Energy,FAN CONSTANT VOLUME 2
+OutputVariable,Fan Electricity Energy,FAN CONSTANT VOLUME 3
+OutputVariable,Fan Electricity Energy,FAN CONSTANT VOLUME 4
+OutputVariable,Fan Electricity Energy,FAN CONSTANT VOLUME 5
+OutputVariable,Fan Electricity Energy,FAN CONSTANT VOLUME 6
+OutputVariable,Fan Electricity Energy,FAN VARIABLE VOLUME 1
+OutputVariable,Fan Electricity Energy,FAN VARIABLE VOLUME 2
+OutputVariable,Fan Electricity Energy,FAN VARIABLE VOLUME 3
+OutputVariable,Fan Electricity Energy,FAN VARIABLE VOLUME 4
+OutputVariable,Fan Electricity Energy,FAN VARIABLE VOLUME 5
+OutputVariable,Fan Electricity Energy,FAN VARIABLE VOLUME 6
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 2
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 2
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 4
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 4
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 6
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 6
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 8
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 8
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 10
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 10
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 12
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 12
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 1
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 1
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 3
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 3
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 5
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 5
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 7
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 7
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 9
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 9
+OutputVariable,Heating Coil Heating Energy,COIL HEATING ELECTRIC 11
+OutputVariable,Heating Coil Electricity Energy,COIL HEATING ELECTRIC 11
+OutputVariable,Cooling Coil Total Cooling Energy,COIL COOLING DX TWO SPEED 1
+OutputVariable,Cooling Coil Electricity Energy,COIL COOLING DX TWO SPEED 1
+OutputVariable,Cooling Coil Total Cooling Energy,COIL COOLING DX TWO SPEED 2
+OutputVariable,Cooling Coil Electricity Energy,COIL COOLING DX TWO SPEED 2
+OutputVariable,Cooling Coil Total Cooling Energy,COIL COOLING DX TWO SPEED 3
+OutputVariable,Cooling Coil Electricity Energy,COIL COOLING DX TWO SPEED 3
+OutputVariable,Cooling Coil Total Cooling Energy,COIL COOLING DX TWO SPEED 4
+OutputVariable,Cooling Coil Electricity Energy,COIL COOLING DX TWO SPEED 4
+OutputVariable,Cooling Coil Total Cooling Energy,COIL COOLING DX TWO SPEED 5
+OutputVariable,Cooling Coil Electricity Energy,COIL COOLING DX TWO SPEED 5
+OutputVariable,Cooling Coil Total Cooling Energy,COIL COOLING DX TWO SPEED 6
+OutputVariable,Cooling Coil Electricity Energy,COIL COOLING DX TWO SPEED 6
+OutputVariable,Environmental Impact Total N2O Emissions Carbon Equivalent Mass,SITE
+OutputVariable,Environmental Impact Total CH4 Emissions Carbon Equivalent Mass,SITE
+OutputVariable,Environmental Impact Total CO2 Emissions Carbon Equivalent Mass,SITE
+""

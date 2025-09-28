@@ -1,0 +1,29 @@
+2025-03-29 10:30:52,218 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2025-03-29 10:30:52,218 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Configure stats pid to 30476
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Loading settings from C:\Users\A1736\.config\wandb\settings
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Loading settings from E:\实验数据\Rule_test_copy\Energyplus_python\wandb\settings
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'e:\\实验数据\\Rule_test_copy\\Energyplus_python\\main.py', 'program': 'e:\\实验数据\\Rule_test_copy\\Energyplus_python\\main.py'}
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_init.py:_log_setup():524] Logging user logs to E:\实验数据\Rule_test_copy\Energyplus_python\wandb\run-20250329_103052-o6jeaq8i\logs\debug.log
+2025-03-29 10:30:52,219 INFO    MainThread:30476 [wandb_init.py:_log_setup():525] Logging internal logs to E:\实验数据\Rule_test_copy\Energyplus_python\wandb\run-20250329_103052-o6jeaq8i\logs\debug-internal.log
+2025-03-29 10:30:52,220 INFO    MainThread:30476 [wandb_init.py:init():607] calling init triggers
+2025-03-29 10:30:52,220 INFO    MainThread:30476 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {'exp_name': 'Energyplus_Env', 'seed': 1, 'cuda': True, 'wandb_project_name': 'TEST', 'wandb_entity': 'shandong111'}
+2025-03-29 10:30:52,220 INFO    MainThread:30476 [wandb_init.py:init():657] starting backend
+2025-03-29 10:30:52,220 INFO    MainThread:30476 [wandb_init.py:init():661] setting up manager
+2025-03-29 10:30:52,225 INFO    MainThread:30476 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-03-29 10:30:52,226 INFO    MainThread:30476 [wandb_init.py:init():669] backend started and connected
+2025-03-29 10:30:52,236 INFO    MainThread:30476 [wandb_init.py:init():764] updated telemetry
+2025-03-29 10:30:52,237 INFO    MainThread:30476 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2025-03-29 10:30:52,950 INFO    MainThread:30476 [wandb_run.py:_on_init():2479] communicating current version
+2025-03-29 10:30:53,204 INFO    MainThread:30476 [wandb_run.py:_on_init():2488] got version response upgrade_message: "wandb version 0.19.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-03-29 10:30:53,204 INFO    MainThread:30476 [wandb_init.py:init():848] starting run threads in backend
+2025-03-29 10:30:59,171 INFO    MainThread:30476 [wandb_run.py:_console_start():2457] atexit reg
+2025-03-29 10:30:59,171 INFO    MainThread:30476 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2025-03-29 10:30:59,171 INFO    MainThread:30476 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2025-03-29 10:30:59,171 INFO    MainThread:30476 [wandb_run.py:_redirect():2393] Redirects installed.
+2025-03-29 10:30:59,173 INFO    MainThread:30476 [wandb_init.py:init():891] run started, returning control to user process
+2025-03-29 10:32:53,144 WARNING MsgRouterThr:30476 [router.py:message_loop():77] message_loop has been closed

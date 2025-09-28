@@ -1,0 +1,38 @@
+Program Version,EnergyPlus, Version 23.2.0-7636e6b3e9, YMD=2025.09.16 16:22,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** RunPeriod: object=RUN PERIOD 1, start weekday (THURSDAY) does not match the start year (2009), corrected to MONDAY.
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=BEIJING_BEIJING_CHN DESIGN_CONDITIONS
+   **   ~~~   ** ..Weather File Location=Jinan Shandong CHN CSWD WMO#=548230
+   **   ~~~   ** ..due to location differences, Latitude difference=[3.20] degrees, Longitude difference=[0.58] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[444.09] percent, [139.00] meters.
+   ** Warning ** CheckUsedConstructions: There are 19 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="NATURALGAS:PLANT" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="NATURALGAS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="NATURALGAS:PLANT" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="NATURALGAS:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* There are 1 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 7 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  6.36sec

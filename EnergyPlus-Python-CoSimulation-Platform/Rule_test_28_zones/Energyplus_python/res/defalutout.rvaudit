@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:D:\code\1211summer\5zonemodel\HVACTemplate-5ZoneVAVFanPowered.rvi
+ input file:res\defalutout.eso
+ output file:res\defalutout.csv
+ getting all vars from:res\defalutout.eso
+  number variables requested for output=          17
+ ReadVars Run Time=00hr 00min  0.38sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:D:\code\1211summer\5zonemodel\HVACTemplate-5ZoneVAVFanPowered.mvi
+ input file:res\defalutout.mtr
+ output file:res\defalutmtr.csv
+ getting all vars from:res\defalutout.mtr
+  number variables requested for output=          10
+ ReadVars Run Time=00hr 00min  0.17sec
+ ReadVarsESO program completed successfully.
